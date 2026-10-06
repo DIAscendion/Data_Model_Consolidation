@@ -1,0 +1,12 @@
+Report_ID,Table_Name,Measure_Name,Expression
+R001,Measure,Headcount,COUNT(HRDataset_v14[EmpID])
+R001,Measure,Attrition,"CALCULATE( COUNTROWS(HRDataset_v14), HRDataset_v14[Attrition] = 0 )"
+R001,Measure,Attrition %,"DIVIDE([Attrition], COUNTROWS(HRDataset_v14), 0)"
+R001,Measure,Avg Salary,CALCULATE(AVERAGE(HRDataset_v14[Salary]))
+R001,Measure,Avg Age,"AVERAGEX( HRDataset_v14, DATEDIFF(HRDataset_v14[DOB], TODAY(), YEAR) )"
+R001,Measure,Cumulative Headcount,"VAR max_date = MAX(HRDataset_v14[DateofHire]) RETURN CALCULATE( [Headcount], REMOVEFILTERS(HRDataset_v14[DateofHire]), HRDataset_v14[DateofHire] <= max_date )"
+R001,Measure,Salary,SUM(HRDataset_v14[Salary])
+R001,Measure,Selected value,
+R002,Sales,Sales Amount by Due Date,"CALCULATE(SUM(Sales[Sales Amount]), USERELATIONSHIP(Sales[DueDateKey],'Date'[DateKey]))"
+R002,Sales,Sales LY,CALCULATE([Total Sales], SAMEPERIODLASTYEAR('Date'[Date]))
+R003,Sales,Sales Amount by Due Date,"CALCULATE(SUM(Sales[Sales Amount]), USERELATIONSHIP(Sales[DueDateKey],'Date'[DateKey]))"
