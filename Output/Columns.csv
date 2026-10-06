@@ -1,0 +1,155 @@
+Report_ID,Table_Name,Column_Name,Data_Type,Is_Key,Is_Hidden
+R001,HRDataset_v14,Employee_Name,String,No,No
+R001,HRDataset_v14,EmpID,Whole Number,No,No
+R001,HRDataset_v14,MarriedID,Whole Number,No,No
+R001,HRDataset_v14,MaritalStatusID,Whole Number,No,No
+R001,HRDataset_v14,GenderID,Whole Number,No,No
+R001,HRDataset_v14,EmpStatusID,Whole Number,No,No
+R001,HRDataset_v14,DeptID,Whole Number,No,No
+R001,HRDataset_v14,PerfScoreID,Whole Number,No,No
+R001,HRDataset_v14,FromDiversityJobFairID,Whole Number,No,No
+R001,HRDataset_v14,Salary,Whole Number,No,No
+R001,HRDataset_v14,Termd,Whole Number,No,No
+R001,HRDataset_v14,PositionID,Whole Number,No,No
+R001,HRDataset_v14,Position,String,No,No
+R001,HRDataset_v14,State,String,No,No
+R001,HRDataset_v14,Zip,Whole Number,No,No
+R001,HRDataset_v14,DOB,Date/Time,No,No
+R001,HRDataset_v14,Gender,String,No,No
+R001,HRDataset_v14,MaritalDesc,String,No,No
+R001,HRDataset_v14,CitizenDesc,String,No,No
+R001,HRDataset_v14,HispanicLatino,String,No,No
+R001,HRDataset_v14,RaceDesc,String,No,No
+R001,HRDataset_v14,DateofHire,Date/Time,No,No
+R001,HRDataset_v14,DateofTermination,Date/Time,No,No
+R001,HRDataset_v14,TermReason,String,No,No
+R001,HRDataset_v14,EmploymentStatus,String,No,No
+R001,HRDataset_v14,Department,String,No,No
+R001,HRDataset_v14,ManagerName,String,No,No
+R001,HRDataset_v14,ManagerID,Whole Number,No,No
+R001,HRDataset_v14,RecruitmentSource,String,No,No
+R001,HRDataset_v14,PerformanceScore,String,No,No
+R001,HRDataset_v14,EngagementSurvey,Decimal Number,No,No
+R001,HRDataset_v14,EmpSatisfaction,Whole Number,No,No
+R001,HRDataset_v14,SpecialProjectsCount,Whole Number,No,No
+R001,HRDataset_v14,LastPerformanceReview_Date,Date/Time,No,No
+R001,HRDataset_v14,DaysLateLast30,Whole Number,No,No
+R001,HRDataset_v14,Absences,Whole Number,No,No
+R001,HRDataset_v14,Attrition,Whole Number,No,No
+R001,HRDataset_v14,Age,Whole Number,No,No
+R001,HRDataset_v14,Age (bins),Whole Number,No,No
+R002,Customer,CustomerKey,Whole Number,Yes,Yes
+R002,Customer,Customer ID,String,No,No
+R002,Customer,Customer,String,No,No
+R002,Customer,City,String,No,No
+R002,Customer,State-Province,String,No,No
+R002,Customer,Country-Region,String,No,No
+R002,Customer,Postal Code,String,No,No
+R002,Date,DateKey,Whole Number,Yes,Yes
+R002,Date,Date,Date/Time,No,No
+R002,Date,Fiscal Year,String,No,No
+R002,Date,Fiscal Quarter,String,No,No
+R002,Date,Month,Date/Time,No,No
+R002,Date,Full Date,Date/Time,No,No
+R002,Date,MonthKey,Whole Number,No,Yes
+R002,Product,ProductKey,Whole Number,Yes,Yes
+R002,Product,SKU,String,No,No
+R002,Product,Product,String,No,No
+R002,Product,Standard Cost,Decimal Number,No,No
+R002,Product,Color,String,No,No
+R002,Product,List Price,Decimal Number,No,No
+R002,Product,Model,String,No,No
+R002,Product,Subcategory,String,No,No
+R002,Product,Category,String,Yes,No
+R002,Product,Sorting,Whole Number,No,No
+R002,Reseller,ResellerKey,Whole Number,Yes,Yes
+R002,Reseller,Reseller ID,String,No,No
+R002,Reseller,Business Type,String,No,No
+R002,Reseller,Reseller,String,No,No
+R002,Reseller,City,String,No,No
+R002,Reseller,State-Province,String,No,No
+R002,Reseller,Country-Region,String,No,No
+R002,Reseller,Postal Code,String,No,No
+R002,Sales,SalesOrderLineKey,Whole Number,Yes,Yes
+R002,Sales,ResellerKey,Whole Number,Yes,Yes
+R002,Sales,CustomerKey,Whole Number,Yes,Yes
+R002,Sales,ProductKey,Whole Number,Yes,Yes
+R002,Sales,OrderDateKey,Whole Number,Yes,Yes
+R002,Sales,DueDateKey,Whole Number,Yes,Yes
+R002,Sales,ShipDateKey,Whole Number,Yes,Yes
+R002,Sales,SalesTerritoryKey,Whole Number,Yes,Yes
+R002,Sales,Order Quantity,Whole Number,No,No
+R002,Sales,Unit Price,Decimal Number,No,No
+R002,Sales,Extended Amount,Decimal Number,No,No
+R002,Sales,Unit Price Discount Pct,Whole Number,No,No
+R002,Sales,Product Standard Cost,Decimal Number,No,No
+R002,Sales,Total Product Cost,Decimal Number,No,No
+R002,Sales,Sales Amount,Decimal Number,No,No
+R002,Sales,CustomerSegment,String,No,No
+R002,Sales Order,Channel,String,No,No
+R002,Sales Order,SalesOrderLineKey,Whole Number,Yes,Yes
+R002,Sales Order,Sales Order,String,No,No
+R002,Sales Order,Sales Order Line,String,No,No
+R002,Sales Territory,SalesTerritoryKey,Whole Number,Yes,Yes
+R002,Sales Territory,Region,String,No,No
+R002,Sales Territory,Country,String,No,No
+R002,Sales Territory,Group,String,No,No
+R002,Table,Category,String,Yes,No
+R002,Table,Sorting,Whole Number,No,No
+R003,Customer,CustomerKey,Whole Number,Yes,Yes
+R003,Customer,Customer ID,String,No,No
+R003,Customer,Customer,String,No,No
+R003,Customer,City,String,No,No
+R003,Customer,State-Province,String,No,No
+R003,Customer,Country-Region,String,No,No
+R003,Customer,Postal Code,String,No,No
+R003,Date,DateKey,Whole Number,Yes,Yes
+R003,Date,Date,Date/Time,No,No
+R003,Date,Fiscal Year,String,No,No
+R003,Date,Fiscal Quarter,String,No,No
+R003,Date,Month,Date/Time,No,No
+R003,Date,Full Date,Date/Time,No,No
+R003,Date,MonthKey,Whole Number,No,Yes
+R003,Product,ProductKey,Whole Number,Yes,Yes
+R003,Product,SKU,String,No,No
+R003,Product,Product,String,No,No
+R003,Product,Standard Cost,Decimal Number,No,No
+R003,Product,Color,String,No,No
+R003,Product,List Price,Decimal Number,No,No
+R003,Product,Model,String,No,No
+R003,Product,Subcategory,String,No,No
+R003,Product,Category,String,Yes,No
+R003,Product,Sorting,Whole Number,No,No
+R003,Reseller,ResellerKey,Whole Number,Yes,Yes
+R003,Reseller,Reseller ID,String,No,No
+R003,Reseller,Business Type,String,No,No
+R003,Reseller,Reseller,String,No,No
+R003,Reseller,City,String,No,No
+R003,Reseller,State-Province,String,No,No
+R003,Reseller,Country-Region,String,No,No
+R003,Reseller,Postal Code,String,No,No
+R003,Sales,SalesOrderLineKey,Whole Number,Yes,Yes
+R003,Sales,ResellerKey,Whole Number,Yes,Yes
+R003,Sales,CustomerKey,Whole Number,Yes,Yes
+R003,Sales,ProductKey,Whole Number,Yes,Yes
+R003,Sales,OrderDateKey,Whole Number,Yes,Yes
+R003,Sales,DueDateKey,Whole Number,Yes,Yes
+R003,Sales,ShipDateKey,Whole Number,Yes,Yes
+R003,Sales,SalesTerritoryKey,Whole Number,Yes,Yes
+R003,Sales,Order Quantity,Whole Number,No,No
+R003,Sales,Unit Price,Decimal Number,No,No
+R003,Sales,Extended Amount,Decimal Number,No,No
+R003,Sales,Unit Price Discount Pct,Whole Number,No,No
+R003,Sales,Product Standard Cost,Decimal Number,No,No
+R003,Sales,Total Product Cost,Decimal Number,No,No
+R003,Sales,Sales Amount,Decimal Number,No,No
+R003,Sales Order,Channel,String,No,No
+R003,Sales Order,SalesOrderLineKey,Whole Number,Yes,Yes
+R003,Sales Order,Sales Order,String,No,No
+R003,Sales Order,Sales Order Line,String,No,No
+R003,Sales Territory,SalesTerritoryKey,Whole Number,Yes,Yes
+R003,Sales Territory,Region,String,No,No
+R003,Sales Territory,Country,String,No,No
+R003,Sales Territory,Group,String,No,No
+R003,Table,Category,String,Yes,No
+R003,Table,Sorting,Whole Number,No,No
