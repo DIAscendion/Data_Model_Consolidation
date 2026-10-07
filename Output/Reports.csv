@@ -1,4 +1,6 @@
 Report_ID,Report_Name,Semantic_Model,Domain,Data_Source_Count,Table_Count,Column_Count,Measure_Count,Relationship_Count,Similarity Score,Complexity Score
-R001,HR Analytics,HR,HR,1,2,39,8,0,0,67
-R002,Sales,Sales,Sales,1,8,60,3,9,100,105
-R003,Sales,Target,Sales,1,8,58,1,9,100,92
+R001,Claims_Analytics,Claims_Analytics,Other,0,2,10,3,1,28,25
+R002,Care_Gaps,Care_Gaps,Other,0,2,10,3,1,28,25
+R003,Hospital_Admissions,Hospital_Admissions,HR,0,2,10,3,1,26,25
+R004,Insurance_Policies,Insurance_Policies,Other,0,2,10,3,1,27,25
+R005,Lab_Results,Lab_Results,Other,0,2,10,3,1,27,25
