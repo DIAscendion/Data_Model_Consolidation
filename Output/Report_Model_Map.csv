@@ -1,4 +1,6 @@
 Report_ID,Report_Name,Proposed_Model,Match_%,Classification,Reason
-R001,HR Analytics,HR,0,Separate Model,No other model reaches 70% overlap (closest: Sales at 0%); distinct tables/measures
-R002,Sales,Sales,100,Same Shared Model,vs Target: +1 columns (Sales[CustomerSegment]), -1 measures ([Sales Amount by Due Date]); malformed TMDL indentation in Sales.tmdl; same .platform logicalId as Target (copied model)
-R003,Sales,Sales,100,Same Shared Model,vs Sales: +0 columns, -1 measures ([Sales LY]); malformed TMDL indentation in Sales.tmdl; same .platform logicalId as Sales (copied model)
+R001,Claims_Analytics,Claims_Analytics,28,Separate Model,No other model reaches 70% overlap (closest: Care_Gaps at 28%); distinct tables/measures
+R002,Care_Gaps,Care_Gaps,28,Separate Model,No other model reaches 70% overlap (closest: Claims_Analytics at 28%); distinct tables/measures
+R003,Hospital_Admissions,Hospital_Admissions,26,Separate Model,No other model reaches 70% overlap (closest: Claims_Analytics at 26%); distinct tables/measures
+R004,Insurance_Policies,Insurance_Policies,27,Separate Model,No other model reaches 70% overlap (closest: Claims_Analytics at 27%); distinct tables/measures
+R005,Lab_Results,Lab_Results,27,Separate Model,No other model reaches 70% overlap (closest: Claims_Analytics at 27%); distinct tables/measures
