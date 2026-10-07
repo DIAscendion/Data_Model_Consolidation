@@ -1,19 +1,11 @@
 Report_ID,Table_Name,Table_Type,Column_Count,Measure_Count
-R001,HRDataset_v14,Fact,37,0
-R001,Measure,Measure,0,8
-R002,Customer,Dimension,7,0
-R002,Date,Dimension,6,0
-R002,Product,Dimension,10,0
-R002,Reseller,Dimension,8,0
-R002,Sales,Fact,16,3
-R002,Sales Order,Dimension,4,0
-R002,Sales Territory,Dimension,4,0
-R002,Table,Dimension,2,0
-R003,Customer,Dimension,7,0
-R003,Date,Dimension,6,0
-R003,Product,Dimension,10,0
-R003,Reseller,Dimension,8,0
-R003,Sales,Fact,15,1
-R003,Sales Order,Dimension,4,0
-R003,Sales Territory,Dimension,4,0
-R003,Table,Dimension,2,0
+R001,Claims,Dimension,6,3
+R001,Member,Dimension,4,0
+R002,CareGapEvents,Dimension,6,3
+R002,Member,Dimension,4,0
+R003,Admissions,Dimension,6,3
+R003,Patient,Dimension,4,0
+R004,Policyholder,Dimension,4,0
+R004,Premiums,Dimension,6,3
+R005,LabOrders,Dimension,6,3
+R005,LabTest,Dimension,4,0
