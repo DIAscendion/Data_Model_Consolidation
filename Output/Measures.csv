@@ -1,12 +1,16 @@
 Report_ID,Table_Name,Measure_Name,Expression
-R001,Measure,Headcount,COUNT(HRDataset_v14[EmpID])
-R001,Measure,Attrition,"CALCULATE( COUNTROWS(HRDataset_v14), HRDataset_v14[Attrition] = 0 )"
-R001,Measure,Attrition %,"DIVIDE([Attrition], COUNTROWS(HRDataset_v14), 0)"
-R001,Measure,Avg Salary,CALCULATE(AVERAGE(HRDataset_v14[Salary]))
-R001,Measure,Avg Age,"AVERAGEX( HRDataset_v14, DATEDIFF(HRDataset_v14[DOB], TODAY(), YEAR) )"
-R001,Measure,Cumulative Headcount,"VAR max_date = MAX(HRDataset_v14[DateofHire]) RETURN CALCULATE( [Headcount], REMOVEFILTERS(HRDataset_v14[DateofHire]), HRDataset_v14[DateofHire] <= max_date )"
-R001,Measure,Salary,SUM(HRDataset_v14[Salary])
-R001,Measure,Selected value,
-R002,Sales,Sales Amount by Due Date,"CALCULATE(SUM(Sales[Sales Amount]), USERELATIONSHIP(Sales[DueDateKey],'Date'[DateKey]))"
-R002,Sales,Sales LY,CALCULATE([Total Sales], SAMEPERIODLASTYEAR('Date'[Date]))
-R003,Sales,Sales Amount by Due Date,"CALCULATE(SUM(Sales[Sales Amount]), USERELATIONSHIP(Sales[DueDateKey],'Date'[DateKey]))"
+R001,Claims,Total BilledAmount,SUM(Claims[BilledAmount])
+R001,Claims,Avg AllowedAmount,AVERAGE(Claims[AllowedAmount])
+R001,Claims,Record Count,COUNTROWS(Claims)
+R002,CareGapEvents,Total GapDays,SUM(CareGapEvents[GapDays])
+R002,CareGapEvents,Avg OutreachAttempts,AVERAGE(CareGapEvents[OutreachAttempts])
+R002,CareGapEvents,Record Count,COUNTROWS(CareGapEvents)
+R003,Admissions,Total LengthOfStay,SUM(Admissions[LengthOfStay])
+R003,Admissions,Avg TotalCharge,AVERAGE(Admissions[TotalCharge])
+R003,Admissions,Record Count,COUNTROWS(Admissions)
+R004,Premiums,Total PremiumAmount,SUM(Premiums[PremiumAmount])
+R004,Premiums,Avg ClaimPaid,AVERAGE(Premiums[ClaimPaid])
+R004,Premiums,Record Count,COUNTROWS(Premiums)
+R005,LabOrders,Total ResultValue,SUM(LabOrders[ResultValue])
+R005,LabOrders,Avg TurnaroundHrs,AVERAGE(LabOrders[TurnaroundHrs])
+R005,LabOrders,Record Count,COUNTROWS(LabOrders)
