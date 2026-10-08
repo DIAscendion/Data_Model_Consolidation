@@ -1,0 +1,11 @@
+Report_ID,Report_Name,Proposed_Model,Match_%,Classification,Reason
+R001,S_T01,S_T05_Hospital_Admissions,100,Same Shared Model,vs S_T05_Hospital_Admissions: identical objects
+R002,S_T02,S_T02,68,Separate Model,"No other model reaches 70% overlap (closest: S_T04 at 68%); distinct tables/measures"
+R003,S_T03,S_T05_Hospital_Admissions,95,Same Shared Model,"vs S_T05_Hospital_Admissions: -0 tables, +0 columns, -0 measures; different DAX ([Total LengthOfStay], [Avg TotalCharge], [Record Count])"
+R004,S_T04,S_T04,71,Candidate for Consolidation,"No other model reaches 70% overlap (closest: S_T05_Hospital_Admissions at 71%); distinct tables/measures"
+R005,S_T05_Hospital_Admissions,S_T05_Hospital_Admissions,100,Same Shared Model,vs S_T01: identical objects
+R006,S_T06,S_T05_Hospital_Admissions,95,Same Shared Model,"vs S_T05_Hospital_Admissions: +0 tables, +0 columns, +0 measures; different relationship cardinality (Admissions.PatientID>Patient.PatientID)"
+R007,S_T07_Retail_Sales,S_T07_Retail_Sales,0,Separate Model,No other model reaches 70% overlap (closest: S_T01 at 0%); distinct tables/measures
+R008,S_T08,S_T08,0,Separate Model,No other model reaches 70% overlap (closest: S_T01 at 0%); distinct tables/measures
+R009,S_T09,S_T05_Hospital_Admissions,95,Same Shared Model,"vs S_T05_Hospital_Admissions: +0 tables, +0 columns, +0 measures; different data source (Sql.Database vs embedded Table.FromRows)"
+R010,S_T10,S_T05_Hospital_Admissions,74,Candidate for Consolidation,"vs S_T05_Hospital_Admissions: +2 columns (SecurityMap[UserEmail], SecurityMap[Department]), +1 table (SecurityMap); same measures/relationship"
