@@ -1,0 +1,2 @@
+Report_ID,Report_Name,Proposed_Model,Match_%,Classification,Reason
+R001,Hospital_Admissions,Hospital_Admissions,0,Separate Model,No other model reaches 70% overlap (closest: none at 0%); distinct tables/measures
