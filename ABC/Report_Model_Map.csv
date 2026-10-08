@@ -1,0 +1,11 @@
+Report_ID,Report_Name,Proposed_Model,Match_%,Classification,Reason
+R001,S_T01,S_T04,88,Candidate for Consolidation,"vs S_T04: +8 columns (Calendar[Date], Calendar[Year], Calendar[Quarter], ...), -0 measures (none)"
+R002,S_T02,S_T04,74,Candidate for Consolidation,"vs S_T04: +8 columns (Admission[AdmissionsID], Admission[AdmissionDate], Admission[PatientID], ...), -0 measures (none)"
+R003,S_T03,S_T04,88,Candidate for Consolidation,"vs S_T04: +8 columns (Calendar[Date], Calendar[Year], Calendar[Quarter], ...), -0 measures (none)"
+R004,S_T04,S_T04,71,Candidate for Consolidation,"vs S_T01: +0 columns (none), -0 measures (none)"
+R005,S_T05_Hospital_Admissions,S_T04,88,Candidate for Consolidation,"vs S_T04: +8 columns (Calendar[Date], Calendar[Year], Calendar[Quarter], ...), -0 measures (none)"
+R006,S_T06,S_T04,81,Candidate for Consolidation,"vs S_T04: +8 columns (Calendar[Date], Calendar[Year], Calendar[Quarter], ...), -0 measures (none)"
+R007,S_T07_Retail_Sales,S_T07_Retail_Sales,4,Separate Model,"No other model reaches 70% overlap (closest: S_T08 at 4%); distinct tables/measures"
+R008,S_T08,S_T08,4,Separate Model,"No other model reaches 70% overlap (closest: S_T07_Retail_Sales at 4%); distinct tables/measures"
+R009,S_T09,S_T04,81,Candidate for Consolidation,"vs S_T04: +8 columns (Calendar[Date], Calendar[Year], Calendar[Quarter], ...), -0 measures (none)"
+R010,S_T10,S_T10,69,Separate Model,"No other model reaches 70% overlap (closest: S_T04 at 69%); distinct tables/measures"
