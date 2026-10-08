@@ -1,0 +1,11 @@
+Report_ID,Report_Name,Proposed_Model,Match_%,Classification,Reason
+R001,S_T01,S_T01,100,Same Shared Model,vs S_T09: identical objects
+R002,S_T02,S_T01,88,Candidate for Consolidation,"vs S_T01: +6 columns (Admission[AdmissionDate], Admission[Length_Of_Stay], Admission[Total_Charge], ...), +2 tables (Admission, Patients); -0 measures"
+R003,S_T03,S_T01,88,Candidate for Consolidation,"vs S_T01: +0 columns, -0 columns, -0 tables; -0 measures (same measure names but different DAX: [Total LengthOfStay], [Avg TotalCharge], [Record Count])"
+R004,S_T04,S_T04,91,Same Shared Model,vs S_T10: +6 columns (Calendar[Date], Calendar[Year], Calendar[Quarter], ...), +2 tables (Calendar, Department); -0 measures
+R005,S_T05_Hospital_Admissions,S_T01,91,Same Shared Model,vs S_T01: identical objects
+R006,S_T06,S_T01,74,Candidate for Consolidation,"vs S_T01: -0 columns, -0 tables; +3 measures ([Total Charge], [Avg LOS], [Charge per Day], ...) and missing 3 measures ([Total LengthOfStay], [Avg TotalCharge], [Record Count])"
+R007,S_T07_Retail_Sales,S_T07_Retail_Sales,0,Separate Model,No other model reaches 70% overlap (closest: S_T08 at 0%); distinct tables/measures
+R008,S_T08,S_T08,0,Separate Model,No other model reaches 70% overlap (closest: S_T07_Retail_Sales at 0%); distinct tables/measures
+R009,S_T09,S_T01,100,Same Shared Model,vs S_T01: identical objects
+R010,S_T10,S_T04,91,Same Shared Model,vs S_T04: -6 columns (Calendar[Date], Calendar[Year], Calendar[Quarter], ...), -2 tables (Calendar, Department); +1 table (SecurityMap)
