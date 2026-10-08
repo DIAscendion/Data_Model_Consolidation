@@ -1,0 +1,11 @@
+Report_ID,Table_Name,Column_Name,Data_Type,Is_Key,Is_Hidden
+R001,Admissions,AdmissionsID,Whole Number,No,No
+R001,Admissions,Date,Date/Time,No,No
+R001,Admissions,PatientID,Whole Number,Yes,No
+R001,Admissions,Department,String,No,No
+R001,Admissions,LengthOfStay,Whole Number,No,No
+R001,Admissions,TotalCharge,Decimal Number,No,No
+R001,Patient,PatientID,Whole Number,Yes,No
+R001,Patient,PatientName,String,No,No
+R001,Patient,AgeGroup,String,No,No
+R001,Patient,Insurance,String,No,No
