@@ -1,2 +1,11 @@
 Report_ID,Report_Name,Proposed_Model,Match_%,Classification,Reason
-R001,Hospital_Admissions,Hospital_Admissions,0,Separate Model,No other model reaches 70% overlap (closest: none at 0%); distinct tables/measures
+R001,S_T01,S_T01,100,Same Shared Model,vs S_T05: identical objects
+R002,S_T02,S_T01,75,Candidate for Consolidation,vs S_T01: +6 columns (Admission[AdmissionDate], Admission[Length_Of_Stay], Admission[Total_Charge] ...), -6 columns (Admissions[Date], Admissions[LengthOfStay], Admissions[TotalCharge] ...)
+R003,S_T03,S_T01,100,Same Shared Model,vs S_T01: identical objects
+R004,S_T04,S_T04,71,Candidate for Consolidation,vs S_T01: +2 tables (Calendar, Department), +8 columns (Calendar[Date], Calendar[Year], Calendar[MonthNumber] ...), +2 relationships (Admissions.Department>Department.Department, Admissions.Date>Calendar.Date)
+R005,S_T05,S_T01,100,Same Shared Model,vs S_T01: identical objects
+R006,S_T06,S_T01,75,Candidate for Consolidation,vs S_T01: +6 measures (Total Charge, Avg LOS, Charge per Day ...), -0 measures
+R007,S_T07,S_T07,13,Separate Model,No other model reaches 70% overlap (closest: S_T08 at 18%); distinct tables/measures
+R008,S_T08,S_T08,18,Separate Model,No other model reaches 70% overlap (closest: S_T07 at 18%); distinct tables/measures
+R009,S_T09,S_T01,100,Same Shared Model,vs S_T01: identical objects
+R010,S_T10,S_T10,72,Candidate for Consolidation,vs S_T01: +1 tables (SecurityMap), +2 columns (SecurityMap[UserEmail], SecurityMap[Department]), -0 measures
