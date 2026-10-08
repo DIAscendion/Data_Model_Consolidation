@@ -1,8 +1,8 @@
 Metric,Value
-Reports Analyzed,1
-Current Models,1
-Recommended Shared Models,1
-Same Shared Model,0
-Candidate for Consolidation,0
-Separate Model,1
-Reduction %,0%
+Reports Analyzed,10
+Current Models,10
+Recommended Shared Models,4
+Same Shared Model,4
+Candidate for Consolidation,4
+Separate Model,2
+Reduction %,60%
