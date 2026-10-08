@@ -1,0 +1,11 @@
+Report_ID,Report_Name,Proposed_Model,Match_%,Classification,Reason
+R001,S_T05_Hospital_Admissions,S_T10,83,Candidate for Consolidation,"vs S_T10: -1 columns (SecurityMap[UserEmail], ...); -0 measures; -0 relationships"
+R002,S_T07_Retail_Sales,S_T07_Retail_Sales,0,Separate Model,"No other model reaches 70% overlap (closest: S_T10 at 0%); distinct tables/measures"
+R003,S_T08,S_T08,0,Separate Model,"No other model reaches 70% overlap (closest: S_T10 at 0%); distinct tables/measures"
+R004,S_T10,S_T10,83,Candidate for Consolidation,"vs S_T01: +2 columns (SecurityMap[UserEmail], SecurityMap[Department]); +1 tables (SecurityMap); identical measures"
+R005,S_T01,S_T10,83,Candidate for Consolidation,"vs S_T10: -1 tables (SecurityMap); -2 columns (SecurityMap[UserEmail], ...); identical measures"
+R006,S_T02,S_T02,52,Separate Model,"No other model reaches 70% overlap (closest: S_T04 at 52%); distinct tables/measures"
+R007,S_T03,S_T10,83,Candidate for Consolidation,"vs S_T10: -1 tables (SecurityMap); -2 columns (SecurityMap[UserEmail], ...); identical measures"
+R008,S_T04,S_T04,52,Separate Model,"No other model reaches 70% overlap (closest: S_T02 at 52%); distinct tables/measures"
+R009,S_T06,S_T06,83,Separate Model,"No other model reaches 70% overlap (closest: S_T10 at 83%); distinct tables/measures"
+R010,S_T09,S_T10,83,Candidate for Consolidation,"vs S_T10: identical tables/columns/measures/relationships; same structure but different source (Sql.Database vs embedded Table.FromRows)"
