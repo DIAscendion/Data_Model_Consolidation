@@ -1,0 +1,116 @@
+Report_ID,Table_Name,Column_Name,Data_Type,Is_Key,Is_Hidden
+R001,Patient,PatientID,Whole Number,Yes,No
+R001,Patient,PatientName,String,No,No
+R001,Patient,AgeGroup,String,No,No
+R001,Patient,Insurance,String,No,No
+R001,Admissions,AdmissionsID,Whole Number,No,No
+R001,Admissions,Date,Date/Time,No,No
+R001,Admissions,PatientID,Whole Number,Yes,No
+R001,Admissions,Department,String,No,No
+R001,Admissions,LengthOfStay,Whole Number,No,No
+R001,Admissions,TotalCharge,Decimal Number,No,No
+R002,Patients,PatientID,Whole Number,Yes,No
+R002,Patients,Patient_Name,String,No,No
+R002,Patients,Age_Group,String,No,No
+R002,Patients,InsuranceType,String,No,No
+R002,Admission,AdmissionsID,Whole Number,No,No
+R002,Admission,AdmissionDate,Date/Time,No,No
+R002,Admission,PatientID,Whole Number,Yes,No
+R002,Admission,Department,String,No,No
+R002,Admission,Length_Of_Stay,Whole Number,No,No
+R002,Admission,Total_Charge,Decimal Number,No,No
+R003,Patient,PatientID,Whole Number,Yes,No
+R003,Patient,PatientName,String,No,No
+R003,Patient,AgeGroup,String,No,No
+R003,Patient,Insurance,String,No,No
+R003,Admissions,AdmissionsID,Whole Number,No,No
+R003,Admissions,Date,Date/Time,No,No
+R003,Admissions,PatientID,Whole Number,Yes,No
+R003,Admissions,Department,String,No,No
+R003,Admissions,LengthOfStay,Whole Number,No,No
+R003,Admissions,TotalCharge,Decimal Number,No,No
+R004,Patient,PatientID,Whole Number,Yes,No
+R004,Patient,PatientName,String,No,No
+R004,Patient,AgeGroup,String,No,No
+R004,Patient,Insurance,String,No,No
+R004,Admissions,AdmissionsID,Whole Number,No,No
+R004,Admissions,Date,Date/Time,Yes,No
+R004,Admissions,PatientID,Whole Number,Yes,No
+R004,Admissions,Department,String,Yes,No
+R004,Admissions,LengthOfStay,Whole Number,No,No
+R004,Admissions,TotalCharge,Decimal Number,No,No
+R004,Department,Department,String,Yes,No
+R004,Department,DepartmentHead,String,No,No
+R004,Department,Floor,Whole Number,No,No
+R004,Calendar,Date,Date/Time,Yes,No
+R004,Calendar,Year,Whole Number,No,No
+R004,Calendar,MonthNumber,Whole Number,No,No
+R004,Calendar,MonthName,String,No,No
+R004,Calendar,Quarter,String,No,No
+R005,Patient,PatientID,Whole Number,Yes,No
+R005,Patient,PatientName,String,No,No
+R005,Patient,AgeGroup,String,No,No
+R005,Patient,Insurance,String,No,No
+R005,Admissions,AdmissionsID,Whole Number,No,No
+R005,Admissions,Date,Date/Time,No,No
+R005,Admissions,PatientID,Whole Number,Yes,No
+R005,Admissions,Department,String,No,No
+R005,Admissions,LengthOfStay,Whole Number,No,No
+R005,Admissions,TotalCharge,Decimal Number,No,No
+R006,Patient,PatientID,Whole Number,Yes,No
+R006,Patient,PatientName,String,No,No
+R006,Patient,AgeGroup,String,No,No
+R006,Patient,Insurance,String,No,No
+R006,Admissions,AdmissionsID,Whole Number,No,No
+R006,Admissions,Date,Date/Time,No,No
+R006,Admissions,PatientID,Whole Number,Yes,No
+R006,Admissions,Department,String,No,No
+R006,Admissions,LengthOfStay,Whole Number,No,No
+R006,Admissions,TotalCharge,Decimal Number,No,No
+R007,Customer,CustomerID,Whole Number,Yes,No
+R007,Customer,CustomerName,String,No,No
+R007,Customer,Segment,String,No,No
+R007,Customer,Region,String,No,No
+R007,Sales,SaleID,Whole Number,No,No
+R007,Sales,SaleDate,Date/Time,No,No
+R007,Sales,CustomerID,Whole Number,Yes,No
+R007,Sales,Product,String,No,No
+R007,Sales,Category,String,No,No
+R007,Sales,Quantity,Whole Number,No,No
+R007,Sales,UnitPrice,Decimal Number,No,No
+R007,Sales,Revenue,Decimal Number,No,No
+R008,Patient,PatientID,Whole Number,Yes,No
+R008,Patient,PatientName,String,No,No
+R008,Patient,City,String,No,No
+R008,Provider,ProviderID,Whole Number,Yes,No
+R008,Provider,ProviderName,String,No,No
+R008,Provider,Specialty,String,No,No
+R008,Provider,NetworkStatus,String,No,No
+R008,Appointments,AppointmentID,Whole Number,No,No
+R008,Appointments,AppointmentDate,Date/Time,No,No
+R008,Appointments,PatientID,Whole Number,Yes,No
+R008,Appointments,ProviderID,Whole Number,Yes,No
+R008,Appointments,Status,String,No,No
+R008,Appointments,Fee,Decimal Number,No,No
+R009,Patient,PatientID,Whole Number,Yes,No
+R009,Patient,PatientName,String,No,No
+R009,Patient,AgeGroup,String,No,No
+R009,Patient,Insurance,String,No,No
+R009,Admissions,AdmissionsID,Whole Number,No,No
+R009,Admissions,Date,Date/Time,No,No
+R009,Admissions,PatientID,Whole Number,Yes,No
+R009,Admissions,Department,String,No,No
+R009,Admissions,LengthOfStay,Whole Number,No,No
+R009,Admissions,TotalCharge,Decimal Number,No,No
+R010,Patient,PatientID,Whole Number,Yes,No
+R010,Patient,PatientName,String,No,No
+R010,Patient,AgeGroup,String,No,No
+R010,Patient,Insurance,String,No,No
+R010,Admissions,AdmissionsID,Whole Number,No,No
+R010,Admissions,Date,Date/Time,No,No
+R010,Admissions,PatientID,Whole Number,Yes,No
+R010,Admissions,Department,String,No,No
+R010,Admissions,LengthOfStay,Whole Number,No,No
+R010,Admissions,TotalCharge,Decimal Number,No,No
+R010,SecurityMap,UserEmail,String,No,Yes
+R010,SecurityMap,Department,String,No,Yes
