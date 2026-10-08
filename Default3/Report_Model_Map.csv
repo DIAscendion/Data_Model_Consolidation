@@ -1,0 +1,11 @@
+Report_ID,Report_Name,Proposed_Model,Match_%,Classification,Reason
+R001,S_T01,S_T01,100,Same Shared Model,vs S_T03: identical objects
+R002,S_T02,S_T01,70,Candidate for Consolidation,"vs S_T01: +2 columns (Admission[AdmissionDate], Patients[InsuranceType]), -2 columns (Admissions[Date], Patient[Insurance])"
+R003,S_T03,S_T01,100,Same Shared Model,"vs S_T01: +0 columns, -0 measures (identical names)"
+R004,S_T04,S_T04,70,Candidate for Consolidation,"vs S_T01: +10 columns (Calendar[Date], Department[Department], ...), -0 measures"
+R005,S_T05,S_T01,100,Same Shared Model,vs S_T01: identical objects
+R006,S_T06,S_T06,70,Candidate for Consolidation,"vs S_T01: +7 measures ([Total Charge], [Avg LOS], [Charge per Day], ...), -0 columns"
+R007,S_T07,S_T07,0,Separate Model,No other model reaches 70% overlap (closest: S_T08 at 0%); distinct tables/measures
+R008,S_T08,S_T08,0,Separate Model,No other model reaches 70% overlap (closest: S_T07 at 0%); distinct tables/measures
+R009,S_T09,S_T01,100,Same Shared Model,vs S_T01: identical objects
+R010,S_T10,S_T10,70,Candidate for Consolidation,"vs S_T01: +2 columns (SecurityMap[UserEmail], SecurityMap[Department]), -0 measures"
