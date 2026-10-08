@@ -1,0 +1,3 @@
+Report_ID,Table_Name,Table_Type,Column_Count,Measure_Count
+R001,Admissions,Dimension,6,3
+R001,Patient,Dimension,4,0
