@@ -1,0 +1,2 @@
+Report_ID,Report_Name,Semantic_Model,Domain,Data_Source_Count,Table_Count,Column_Count,Measure_Count,Relationship_Count,Similarity Score,Complexity Score
+R001,Hospital_Admissions,Hospital_Admissions,HR,0,2,10,3,1,0,24
