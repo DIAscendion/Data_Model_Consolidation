@@ -1,0 +1,42 @@
+Report_ID,Table_Name,Measure_Name,Expression
+R001,Admissions,Total LengthOfStay,SUM(Admissions[LengthOfStay])
+R001,Admissions,Avg TotalCharge,AVERAGE(Admissions[TotalCharge])
+R001,Admissions,Record Count,COUNTROWS(Admissions)
+R002,Admission,Total LengthOfStay,SUM(Admission[Length_Of_Stay])
+R002,Admission,Avg TotalCharge,AVERAGE(Admission[Total_Charge])
+R002,Admission,Record Count,COUNTROWS(Admission)
+R003,Admissions,Total LengthOfStay,SUMX(Admissions, Admissions[LengthOfStay])
+R003,Admissions,Avg TotalCharge,"DIVIDE(SUM(Admissions[TotalCharge]), COUNTROWS(Admissions))"
+R003,Admissions,Record Count,DISTINCTCOUNT(Admissions[AdmissionsID])
+R004,Admissions,Total LengthOfStay,SUM(Admissions[LengthOfStay])
+R004,Admissions,Avg TotalCharge,AVERAGE(Admissions[TotalCharge])
+R004,Admissions,Record Count,COUNTROWS(Admissions)
+R005,Admissions,Total LengthOfStay,SUM(Admissions[LengthOfStay])
+R005,Admissions,Avg TotalCharge,AVERAGE(Admissions[TotalCharge])
+R005,Admissions,Record Count,COUNTROWS(Admissions)
+R006,Admissions,Total LengthOfStay,"SUMX( FILTER( Admissions, Admissions[Department] <> ""ER"" && Admissions[LengthOfStay] > 0 ), Admissions[LengthOfStay] )"
+R006,Admissions,Avg TotalCharge,"AVERAGEX( FILTER( Admissions, Admissions[Department] <> ""ER"" && Admissions[LengthOfStay] > 0 ), MIN(Admissions[TotalCharge], 50000) )"
+R006,Admissions,Record Count,"COUNTROWS( FILTER( Admissions, Admissions[Department] <> ""ER"" && Admissions[LengthOfStay] > 0 ) )"
+R006,Admissions,Total Charge,"SUMX( FILTER( Admissions, Admissions[Department] <> ""ER"" && Admissions[LengthOfStay] > 0 ), MIN(Admissions[TotalCharge], 50000) )"
+R006,Admissions,Avg LOS,"DIVIDE([Total LengthOfStay], [Record Count])"
+R006,Admissions,Charge per Day,"DIVIDE([Total Charge], [Total LengthOfStay])"
+R006,Admissions,High Cost Admissions,"COUNTROWS( FILTER( FILTER( Admissions, Admissions[Department] <> ""ER"" && Admissions[LengthOfStay] > 0 ), Admissions[TotalCharge] >= 25000 ) )"
+R006,Admissions,Long Stay %,"DIVIDE( COUNTROWS( FILTER( FILTER( Admissions, Admissions[Department] <> ""ER"" && Admissions[LengthOfStay] > 0 ), Admissions[LengthOfStay] >= 7 ) ), [Record Count] )"
+R006,Admissions,Medicare Admissions,"CALCULATE([Record Count], Patient[Insurance] = ""Medicare"")"
+R007,Sales,Total Revenue,SUM(Sales[Revenue])
+R007,Sales,Total Quantity,SUM(Sales[Quantity])
+R007,Sales,Order Count,COUNTROWS(Sales)
+R007,Sales,Avg Order Value,"DIVIDE([Total Revenue], [Order Count])"
+R007,Sales,Customer Count,DISTINCTCOUNT(Sales[CustomerID])
+R007,Sales,Revenue per Unit,"DIVIDE([Total Revenue], [Total Quantity])"
+R008,Appointments,Total Appointments,COUNTROWS(Appointments)
+R008,Appointments,Completed Appointments,"CALCULATE(COUNTROWS(Appointments), Appointments[Status] = ""Completed"")"
+R008,Appointments,No-Show Rate,"DIVIDE(CALCULATE(COUNTROWS(Appointments), Appointments[Status] = ""No-Show""), COUNTROWS(Appointments))"
+R008,Appointments,Total Fees,SUM(Appointments[Fee])
+R008,Appointments,Avg Fee,AVERAGE(Appointments[Fee])
+R009,Admissions,Total LengthOfStay,SUM(Admissions[LengthOfStay])
+R009,Admissions,Avg TotalCharge,AVERAGE(Admissions[TotalCharge])
+R009,Admissions,Record Count,COUNTROWS(Admissions)
+R010,Admissions,Total LengthOfStay,SUM(Admissions[LengthOfStay])
+R010,Admissions,Avg TotalCharge,AVERAGE(Admissions[TotalCharge])
+R010,Admissions,Record Count,COUNTROWS(Admissions)
