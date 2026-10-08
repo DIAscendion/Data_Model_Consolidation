@@ -1,0 +1,11 @@
+Report_ID,Report_Name,Proposed_Model,Match_%,Classification,Reason
+R001,S_T01,S_T09,95,Candidate for Consolidation,"vs S_T09: +0 columns, -0 measures (identical objects)"
+R002,S_T02,S_T02,71,Candidate for Consolidation,"vs S_T04: +2 columns (Admission[AdmissionDate], Patients[Patient_Name], ...), -0 measures"
+R003,S_T03,S_T09,95,Candidate for Consolidation,"vs S_T09: +0 columns, -0 measures (identical objects)"
+R004,S_T04,S_T02,71,Candidate for Consolidation,"vs S_T02: +0 columns, -6 measures ([Total Length_Of_Stay], [Avg Total_Charge], [Record Count], ...)"
+R005,S_T05_Hospital_Admissions,S_T05_Hospital_Admissions,74,Candidate for Consolidation,"vs S_T01: +0 columns, -3 measures ([Total LengthOfStay], [Avg TotalCharge], [Record Count])"
+R006,S_T06,S_T09,95,Candidate for Consolidation,"vs S_T09: +0 columns, -0 measures (identical objects)"
+R007,S_T07_Retail_Sales,S_T07_Retail_Sales,0,Separate Model,"No other model reaches 70% overlap (closest: S_T01 at 0%); distinct tables/measures"
+R008,S_T08,S_T08,0,Separate Model,"No other model reaches 70% overlap (closest: S_T01 at 0%); distinct tables/measures"
+R009,S_T09,S_T09,95,Same Shared Model,"vs S_T01: +0 columns, -0 measures (identical objects)"
+R010,S_T10,S_T05_Hospital_Admissions,74,Candidate for Consolidation,"vs S_T05_Hospital_Admissions: +2 columns (SecurityMap[UserEmail], SecurityMap[Department]), -0 measures"
