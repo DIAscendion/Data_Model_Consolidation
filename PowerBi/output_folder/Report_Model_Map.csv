@@ -1,0 +1,11 @@
+Report_ID,Report_Name,Proposed_Model,Match_%,Classification,Reason
+R001,S_T01,S_T01,100,Identical objects,Identical objects vs S_T02: +0 columns, -0 measures
+R002,S_T02,S_T01,100,Identical objects,Identical objects vs S_T01: +0 columns, -0 measures
+R003,S_T03,S_T03,88,Consolidation with business validation,Same structure, different DAX vs S_T01: +0 columns, -0 measures; DAX differs: [Total LengthOfStay], [Avg TotalCharge], [Record Count]
+R004,S_T04,S_T04,88,Consolidation,Same structure, additional tables vs S_T01: +14 columns (Calendar[Date], Calendar[Year], Calendar[Quarter] ...), -0 measures; +2 tables (Calendar, Department)
+R005,S_T05_Hospital_Admissions,S_T01,100,Identical objects,Identical objects vs S_T01: +0 columns, -0 measures
+R006,S_T06,S_T01,100,Identical objects,Identical objects vs S_T01: +0 columns, -0 measures
+R007,S_T07_Retail_Sales,S_T07_Retail_Sales,0,Separate Model,No other model qualifies for consolidation (closest: S_T01 at 0%); Very little overlap vs S_T01: +13 columns (Customer[CustomerID], Customer[CustomerName], Customer[Segment] ...), -3 measures ([Total LengthOfStay], [Avg TotalCharge], [Record Count])
+R008,S_T08,S_T08,0,Separate Model,No other model qualifies for consolidation (closest: S_T01 at 0%); Very little overlap vs S_T01: +16 columns (Appointments[AppointmentID], Appointments[AppointmentDate], Appointments[PatientID] ...), -3 measures ([Total LengthOfStay], [Avg TotalCharge], [Record Count])
+R009,S_T09,S_T01,100,Consolidation,Same model, different source vs S_T01: source differs for tables (Admissions, Patient)
+R010,S_T10,S_T10,65,Separate Model,No other model qualifies for consolidation (closest: S_T01 at 65%); Different RLS vs S_T01: +2 columns (SecurityMap[UserEmail], SecurityMap[Department]), -0 measures; roles differ: (medicare_only, cardiology_only, dynamic_department)
