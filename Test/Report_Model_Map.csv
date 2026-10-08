@@ -1,0 +1,11 @@
+Report_ID,Report_Name,Proposed_Model,Match_%,Classification,Reason
+R001,S_T01,S_T04,79,Candidate for Consolidation,"vs S_T04: +8 columns (Calendar[Date], Calendar[Year], Calendar[Quarter], ...); -0 measures (none)"
+R002,S_T02,S_T02,66,Separate Model,"No other model reaches 70% overlap (closest: S_T04 at 66%); distinct tables/measures"
+R003,S_T03,S_T04,70,Candidate for Consolidation,"vs S_T04: +0 columns (none); -0 measures (none)"
+R004,S_T04,S_T04,75,Candidate for Consolidation,"vs S_T01: +8 columns (Calendar[Date], Calendar[Year], Calendar[Quarter], ...); -0 measures (none)"
+R005,S_T05_Hospital_Admissions,S_T04,79,Candidate for Consolidation,"vs S_T04: +0 columns (none); -0 measures (none)"
+R006,S_T06,S_T04,79,Candidate for Consolidation,"vs S_T04: +0 columns (none); -6 measures ([Total Charge], [Avg LOS], [Charge per Day], ...)"
+R007,S_T07_Retail_Sales,S_T07_Retail_Sales,0,Separate Model,"No other model reaches 70% overlap (closest: S_T08 at 0%); distinct tables/measures"
+R008,S_T08,S_T08,0,Separate Model,"No other model reaches 70% overlap (closest: S_T07_Retail_Sales at 0%); distinct tables/measures"
+R009,S_T09,S_T04,79,Candidate for Consolidation,"vs S_T04: +0 columns (none); -0 measures (none)"
+R010,S_T10,S_T04,79,Candidate for Consolidation,"vs S_T04: +2 columns (SecurityMap[UserEmail], SecurityMap[Department]); -0 measures (none)"
