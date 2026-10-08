@@ -1,11 +1,11 @@
 Report_ID,Report_Name,Semantic_Model,Domain,Data_Source_Count,Table_Count,Column_Count,Measure_Count,Relationship_Count,Similarity Score,Complexity Score
-R001,S_T01,S_T01,Other,0,2,10,3,1,61,24
+R001,S_T01,S_T01,Other,0,2,10,3,1,87,24
 R002,S_T02,S_T02,Other,0,2,10,3,1,20,24
-R003,S_T03,S_T03,Other,0,2,10,3,1,61,27
-R004,S_T04,S_T04,Other,0,4,18,3,3,73,42
-R005,S_T05,S_T05,Other,0,2,10,3,1,61,24
-R006,S_T06,S_T06,Other,0,2,10,9,1,47,63
-R007,S_T07,S_T07,Sales,0,2,12,6,1,0,32
+R003,S_T03,S_T03,Other,0,2,10,3,1,87,30
+R004,S_T04,S_T04,Other,0,4,18,3,3,61,42
+R005,S_T05,S_T05,Other,0,2,10,3,1,87,24
+R006,S_T06,S_T06,Other,0,2,10,9,1,87,63
+R007,S_T07,S_T07,Sales,0,2,12,6,1,0,38
 R008,S_T08,S_T08,Other,0,3,13,5,2,11,42
-R009,S_T09,S_T09,Other,1,2,10,3,1,61,24
-R010,S_T10,S_T10,Other,0,3,12,3,1,73,29
+R009,S_T09,S_T09,Other,1,2,10,3,1,87,24
+R010,S_T10,S_T10,Other,0,3,12,3,1,70,29
