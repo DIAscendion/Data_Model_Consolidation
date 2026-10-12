@@ -1,0 +1,11 @@
+Report_ID,Report_Name,Proposed_Model,Closest_Report,Match_%,Classification,Reason
+S_T01,S_T01,Model,S_T03,100,Consolidation,Exact Duplicate; identical objects
+S_T02,S_T02,Model,S_T01,20,Separate Model,Very Little Overlap; No other report reaches 70% overlap (closest: S_T01 at 20%); distinct tables/measures
+S_T03,S_T03,Model,S_T01,100,Consolidation with Business Validation,"Same Structure, Different DAX; identical objects"
+S_T04,S_T04,Model,S_T01,61,Separate Model,"Different Relationship / Cardinality; vs S_T01: +2 tables (Calendar, Department), +8 columns (Calendar.Date, Calendar.Day, Calendar.DayName, ...), +2 relationships (Admissions.Date>Calendar.Date, Admissions.Department>Department.Department)"
+S_T05,S_T05_Hospital_Admissions,Model,S_T01,100,Consolidation,Exact Duplicate; identical objects
+S_T06,S_T06,Model,S_T01,80,Separate Model,"Same Model, Different Measure / Business Logic; vs S_T01: +6 measures (Avg LOS, Charge per Day, High Cost Admissions, ...), -3 measures (Avg TotalCharge, Record Count, Total LengthOfStay)"
+S_T07,S_T07_Retail_Sales,Model,S_T01,0,Separate Model,Completely Different Domain; No other report reaches 70% overlap (closest: S_T01 at 0%); distinct tables/measures
+S_T08,S_T08,Model,S_T01,11,Separate Model,Very Little Overlap; No other report reaches 70% overlap (closest: S_T01 at 11%); distinct tables/measures
+S_T09,S_T09,Model,S_T01,100,Consolidation,Same Model but Different Source; identical objects
+S_T10,S_T10,Model,S_T01,83,Separate Model,"Different RLS; vs S_T01: +1 tables (SecurityMap), +2 columns (SecurityMap.Department, SecurityMap.UserEmail)"
