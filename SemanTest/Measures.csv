@@ -1,0 +1,43 @@
+Report_ID,Table_Name,Measure_Name,Expression
+S_T01,Admissions,Total LengthOfStay,SUM(Admissions[LengthOfStay])
+S_T01,Admissions,Avg TotalCharge,AVERAGE(Admissions[TotalCharge])
+S_T01,Admissions,Record Count,COUNTROWS(Admissions)
+S_T02,Admission,Total Length_Of_Stay,SUM(Admission[Length_Of_Stay])
+S_T02,Admission,Avg Total_Charge,AVERAGE(Admission[Total_Charge])
+S_T02,Admission,Record Count,COUNTROWS(Admission)
+S_T03,Admissions,Total LengthOfStay,"SUMX(Admissions, Admissions[LengthOfStay])"
+S_T03,Admissions,Avg TotalCharge,"DIVIDE(SUM(Admissions[TotalCharge]), COUNTROWS(Admissions))"
+S_T03,Admissions,Record Count,DISTINCTCOUNT(Admissions[AdmissionsID])
+S_T04,Admissions,Total LengthOfStay,SUM(Admissions[LengthOfStay])
+S_T04,Admissions,Avg TotalCharge,AVERAGE(Admissions[TotalCharge])
+S_T04,Admissions,Record Count,COUNTROWS(Admissions)
+S_T05,Admissions,Total LengthOfStay,SUM(Admissions[LengthOfStay])
+S_T05,Admissions,Avg TotalCharge,AVERAGE(Admissions[TotalCharge])
+S_T05,Admissions,Record Count,COUNTROWS(Admissions)
+S_T06,Admissions,Total Charge,"SUMX(FILTER(Admissions, Admissions[Department] <> ""ER"" && Admissions[LengthOfStay] > 0), MIN(Admissions[TotalCharge], 50000))"
+S_T06,Admissions,Avg LOS,"DIVIDE([Total LengthOfStay], [Record Count])"
+S_T06,Admissions,Charge per Day,"DIVIDE([Total Charge], [Total LengthOfStay])"
+S_T06,Admissions,High Cost Admissions,"COUNTROWS(FILTER(Admissions, Admissions[Department] <> ""ER"" && Admissions[LengthOfStay] > 0 && Admissions[TotalCharge] > 50000))"
+S_T06,Admissions,Long Stay %,"DIVIDE(COUNTROWS(FILTER(Admissions, Admissions[Department] <> ""ER"" && Admissions[LengthOfStay] > 0 && Admissions[LengthOfStay] >= 14)), [Record Count])"
+S_T06,Admissions,Medicare Admissions,"COUNTROWS(FILTER(Admissions, Admissions[Department] <> ""ER"" && Admissions[LengthOfStay] > 0 && RELATED(Patient[Insurance]) = ""Medicare""))"
+S_T07,Customer,Customer Count,COUNTROWS(Customer)
+S_T07,Sales,Total Revenue,SUM(Sales[Revenue])
+S_T07,Sales,Total Quantity,SUM(Sales[Quantity])
+S_T07,Sales,Order Count,COUNTROWS(Sales)
+S_T07,Sales,Avg Order Value,"DIVIDE([Total Revenue], [Order Count])"
+S_T07,Sales,Active Customers,DISTINCTCOUNT(Sales[CustomerID])
+S_T07,Sales,Revenue per Customer,"DIVIDE([Total Revenue], [Active Customers])"
+S_T08,Appointments,Total Appointments,COUNTROWS(Appointments)
+S_T08,Appointments,Completed Appointments,"CALCULATE(COUNTROWS(Appointments), Appointments[Status] = ""Completed"")"
+S_T08,Appointments,No-Show Rate,"DIVIDE(CALCULATE(COUNTROWS(Appointments), Appointments[Status] = ""No-Show""), COUNTROWS(Appointments))"
+S_T08,Appointments,Avg Duration (Min),AVERAGE(Appointments[DurationMinutes])
+S_T08,Appointments,Total Fee,SUM(Appointments[Fee])
+S_T08,Appointments,Avg Fee per Appointment,"DIVIDE(SUM(Appointments[Fee]), COUNTROWS(Appointments))"
+S_T08,Provider,Provider Count,COUNTROWS(Provider)
+S_T08,Provider,Avg Years Experience,AVERAGE(Provider[YearsExperience])
+S_T09,Admissions,Total LengthOfStay,SUM(Admissions[LengthOfStay])
+S_T09,Admissions,Avg TotalCharge,AVERAGE(Admissions[TotalCharge])
+S_T09,Admissions,Record Count,COUNTROWS(Admissions)
+S_T10,Admissions,Total LengthOfStay,SUM(Admissions[LengthOfStay])
+S_T10,Admissions,Avg TotalCharge,AVERAGE(Admissions[TotalCharge])
+S_T10,Admissions,Record Count,COUNTROWS(Admissions)
