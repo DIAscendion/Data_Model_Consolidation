@@ -1,0 +1,91 @@
+Report_ID,Compared_With,Match_%,J_Tables,J_Columns,J_Measures,J_Relationships,Pair_Decision
+S_T01,S_T03,100,100,100,100,100,Same Shared Model
+S_T01,S_T05,100,100,100,100,100,Same Shared Model
+S_T01,S_T09,100,100,100,100,100,Same Shared Model
+S_T01,S_T10,83,67,83,100,100,Candidate for Consolidation
+S_T01,S_T06,80,100,100,0,100,Candidate for Consolidation
+S_T01,S_T04,61,50,56,100,33,Separate Model
+S_T01,S_T02,20,0,0,100,0,Separate Model
+S_T01,S_T08,11,25,8,0,0,Separate Model
+S_T01,S_T07,0,0,0,0,0,Separate Model
+S_T02,S_T09,20,0,0,100,0,Separate Model
+S_T02,S_T10,20,0,0,100,0,Separate Model
+S_T02,S_T01,20,0,0,100,0,Separate Model
+S_T02,S_T03,20,0,0,100,0,Separate Model
+S_T02,S_T04,20,0,0,100,0,Separate Model
+S_T02,S_T05,20,0,0,100,0,Separate Model
+S_T02,S_T06,0,0,0,0,0,Separate Model
+S_T02,S_T07,0,0,0,0,0,Separate Model
+S_T02,S_T08,0,0,0,0,0,Separate Model
+S_T03,S_T01,100,100,100,100,100,Same Shared Model
+S_T03,S_T05,100,100,100,100,100,Same Shared Model
+S_T03,S_T09,100,100,100,100,100,Same Shared Model
+S_T03,S_T10,83,67,83,100,100,Candidate for Consolidation
+S_T03,S_T06,80,100,100,0,100,Candidate for Consolidation
+S_T03,S_T04,61,50,56,100,33,Separate Model
+S_T03,S_T02,20,0,0,100,0,Separate Model
+S_T03,S_T08,11,25,8,0,0,Separate Model
+S_T03,S_T07,0,0,0,0,0,Separate Model
+S_T04,S_T01,61,50,56,100,33,Separate Model
+S_T04,S_T03,61,50,56,100,33,Separate Model
+S_T04,S_T05,61,50,56,100,33,Separate Model
+S_T04,S_T09,61,50,56,100,33,Separate Model
+S_T04,S_T10,55,40,50,100,33,Separate Model
+S_T04,S_T06,41,50,56,0,33,Separate Model
+S_T04,S_T02,20,0,0,100,0,Separate Model
+S_T04,S_T08,8,17,6,0,0,Separate Model
+S_T04,S_T07,0,0,0,0,0,Separate Model
+S_T05,S_T01,100,100,100,100,100,Same Shared Model
+S_T05,S_T03,100,100,100,100,100,Same Shared Model
+S_T05,S_T09,100,100,100,100,100,Same Shared Model
+S_T05,S_T10,83,67,83,100,100,Candidate for Consolidation
+S_T05,S_T06,80,100,100,0,100,Candidate for Consolidation
+S_T05,S_T04,61,50,56,100,33,Separate Model
+S_T05,S_T02,20,0,0,100,0,Separate Model
+S_T05,S_T08,11,25,8,0,0,Separate Model
+S_T05,S_T07,0,0,0,0,0,Separate Model
+S_T06,S_T01,80,100,100,0,100,Candidate for Consolidation
+S_T06,S_T03,80,100,100,0,100,Candidate for Consolidation
+S_T06,S_T05,80,100,100,0,100,Candidate for Consolidation
+S_T06,S_T09,80,100,100,0,100,Candidate for Consolidation
+S_T06,S_T10,63,67,83,0,100,Separate Model
+S_T06,S_T04,41,50,56,0,33,Separate Model
+S_T06,S_T08,11,25,8,0,0,Separate Model
+S_T06,S_T02,0,0,0,0,0,Separate Model
+S_T06,S_T07,0,0,0,0,0,Separate Model
+S_T07,S_T01,0,0,0,0,0,Separate Model
+S_T07,S_T02,0,0,0,0,0,Separate Model
+S_T07,S_T03,0,0,0,0,0,Separate Model
+S_T07,S_T04,0,0,0,0,0,Separate Model
+S_T07,S_T05,0,0,0,0,0,Separate Model
+S_T07,S_T06,0,0,0,0,0,Separate Model
+S_T07,S_T08,0,0,0,0,0,Separate Model
+S_T07,S_T09,0,0,0,0,0,Separate Model
+S_T07,S_T10,0,0,0,0,0,Separate Model
+S_T08,S_T01,11,25,8,0,0,Separate Model
+S_T08,S_T03,11,25,8,0,0,Separate Model
+S_T08,S_T05,11,25,8,0,0,Separate Model
+S_T08,S_T06,11,25,8,0,0,Separate Model
+S_T08,S_T09,11,25,8,0,0,Separate Model
+S_T08,S_T10,9,20,8,0,0,Separate Model
+S_T08,S_T04,8,17,6,0,0,Separate Model
+S_T08,S_T02,0,0,0,0,0,Separate Model
+S_T08,S_T07,0,0,0,0,0,Separate Model
+S_T09,S_T01,100,100,100,100,100,Same Shared Model
+S_T09,S_T03,100,100,100,100,100,Same Shared Model
+S_T09,S_T05,100,100,100,100,100,Same Shared Model
+S_T09,S_T10,83,67,83,100,100,Candidate for Consolidation
+S_T09,S_T06,80,100,100,0,100,Candidate for Consolidation
+S_T09,S_T04,61,50,56,100,33,Separate Model
+S_T09,S_T02,20,0,0,100,0,Separate Model
+S_T09,S_T08,11,25,8,0,0,Separate Model
+S_T09,S_T07,0,0,0,0,0,Separate Model
+S_T10,S_T01,83,67,83,100,100,Candidate for Consolidation
+S_T10,S_T03,83,67,83,100,100,Candidate for Consolidation
+S_T10,S_T05,83,67,83,100,100,Candidate for Consolidation
+S_T10,S_T09,83,67,83,100,100,Candidate for Consolidation
+S_T10,S_T06,63,67,83,0,100,Separate Model
+S_T10,S_T04,55,40,50,100,33,Separate Model
+S_T10,S_T02,20,0,0,100,0,Separate Model
+S_T10,S_T08,9,20,8,0,0,Separate Model
+S_T10,S_T07,0,0,0,0,0,Separate Model
