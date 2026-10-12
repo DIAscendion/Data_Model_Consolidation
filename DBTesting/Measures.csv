@@ -1,0 +1,7 @@
+Report_ID,Table_Name,Measure_Name,Expression
+S_T01,Admissions,Total LengthOfStay,SUM(Admissions[LengthOfStay])
+S_T01,Admissions,Avg TotalCharge,AVERAGE(Admissions[TotalCharge])
+S_T01,Admissions,Record Count,COUNTROWS(Admissions)
+S_T02,Admission,Total Length_Of_Stay,SUM(Admission[Length_Of_Stay])
+S_T02,Admission,Avg Total_Charge,AVERAGE(Admission[Total_Charge])
+S_T02,Admission,Record Count,COUNTROWS(Admission)
