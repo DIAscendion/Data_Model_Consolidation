@@ -1,0 +1,11 @@
+Report_ID,Report_Name,Proposed_Model,Closest_Report,Match_%,Classification,Reason
+S_T01,S_T01,Model,S_T03,100,Consolidation,Exact Duplicate; vs S_T03: identical objects
+S_T02,S_T02,Model,S_T01,20,Separate Model,"Very Little Overlap; No other report reaches 70% overlap (closest: S_T01 at 20%); distinct tables/measures"
+S_T03,S_T03,Model,S_T01,100,Consolidation,"Same Structure, Different DAX; vs S_T01: ~3 DAX ([Total LengthOfStay], [Avg TotalCharge], [Record Count])"
+S_T04,S_T04,Model,S_T01,61,Separate Model,"Very Little Overlap; No other report reaches 70% overlap (closest: S_T01 at 61%); distinct tables/measures"
+S_T05,S_T05_Hospital_Admissions,Model,S_T01,100,Consolidation,Exact Duplicate; vs S_T01: identical objects
+S_T06,S_T06,Model,S_T01,80,Separate Model,"Same Model, Different Measure / Business Logic; vs S_T01: +3 measures ([Total Charge], [Avg LOS], [Charge per Day], ...), -3 measures ([Total LengthOfStay], [Avg TotalCharge], [Record Count])"
+S_T07,S_T07_Retail_Sales,Model,S_T01,0,Separate Model,"Completely Different Domain; No other report reaches 70% overlap (closest: S_T01 at 0%); distinct tables/measures"
+S_T08,S_T08,Model,S_T01,11,Separate Model,"Very Little Overlap; No other report reaches 70% overlap (closest: S_T01 at 11%); distinct tables/measures"
+S_T09,S_T09,Model,S_T01,100,Consolidation,Exact Duplicate; vs S_T01: identical objects; data issue: non-embedded data_source present
+S_T10,S_T10,Model,S_T01,83,Separate Model,"Different RLS; vs S_T01: +1 tables (SecurityMap), +2 columns (SecurityMap[Department], SecurityMap[UserEmail])"
