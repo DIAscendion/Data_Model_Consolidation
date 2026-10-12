@@ -1,0 +1,21 @@
+Report_ID,Table_Name,Column_Name,Data_Type,Is_Key,Is_Hidden
+S_T01,Admissions,AdmissionsID,Whole Number,Yes,No
+S_T01,Admissions,Date,Date/Time,No,No
+S_T01,Admissions,PatientID,Whole Number,Yes,No
+S_T01,Admissions,Department,String,No,No
+S_T01,Admissions,LengthOfStay,Whole Number,No,No
+S_T01,Admissions,TotalCharge,Decimal Number,No,No
+S_T01,Patient,PatientID,Whole Number,Yes,No
+S_T01,Patient,PatientName,String,No,No
+S_T01,Patient,AgeGroup,String,No,No
+S_T01,Patient,Insurance,String,No,No
+S_T02,Admission,AdmissionsID,Whole Number,Yes,No
+S_T02,Admission,AdmissionDate,Date/Time,No,No
+S_T02,Admission,PatientID,Whole Number,Yes,No
+S_T02,Admission,Department,String,No,No
+S_T02,Admission,Length_Of_Stay,Whole Number,No,No
+S_T02,Admission,Total_Charge,Decimal Number,No,No
+S_T02,Patients,PatientID,Whole Number,Yes,No
+S_T02,Patients,Patient_Name,String,No,No
+S_T02,Patients,Age_Group,String,No,No
+S_T02,Patients,InsuranceType,String,No,No
