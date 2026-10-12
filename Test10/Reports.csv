@@ -1,0 +1,11 @@
+Report_ID,Report_Name,Semantic_Model,Domain,Table_Count,Column_Count,Measure_Count,Relationship_Count,Data_Source_Count,Similarity Score,Complexity Score
+S_T01,S_T01,Model (model_id 1),HR,2,10,3,1,0,100,24
+S_T02,S_T02,Model (model_id 2),Other,2,10,3,1,0,20,24
+S_T03,S_T03,Model (model_id 3),HR,2,10,3,1,0,100,27
+S_T04,S_T04,Model (model_id 4),HR,4,18,3,3,1,61,36
+S_T05,S_T05_Hospital_Admissions,Model (model_id 5),HR,2,10,3,1,0,100,24
+S_T06,S_T06,Model (model_id 6),HR,2,10,6,1,0,80,40
+S_T07,S_T07_Retail_Sales,Model (model_id 7),Sales,2,13,7,1,0,0,33
+S_T08,S_T08,Model (model_id 8),Other,3,16,8,2,0,11,41
+S_T09,S_T09,Model (model_id 9),HR,2,10,3,1,1,100,24
+S_T10,S_T10,Model (model_id 10),HR,3,12,3,1,0,83,27
