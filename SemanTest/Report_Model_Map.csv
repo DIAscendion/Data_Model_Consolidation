@@ -1,0 +1,11 @@
+Report_ID,Report_Name,Proposed_Model,Closest_Report,Match_%,Classification,Reason
+S_T01,S_T01,Model (model_id 1),S_T03,100,Same Shared Model,vs S_T03: identical objects
+S_T02,S_T02,Model (model_id 2),S_T01,20,Separate Model,No other report reaches 70% overlap (closest: S_T01 at 20%); distinct tables/measures
+S_T03,S_T03,Model (model_id 1),S_T01,100,Same Shared Model,vs S_T01: identical objects
+S_T04,S_T04,Model (model_id 4),S_T01,61,Separate Model,No other report reaches 70% overlap (closest: S_T01 at 61%); distinct tables/measures; data issue: fact/dimension classification from source relationships may be inconsistent
+S_T05,S_T05_Hospital_Admissions,Model (model_id 1),S_T01,100,Same Shared Model,vs S_T01: identical objects
+S_T06,S_T06,Model (model_id 1),S_T01,80,Candidate for Consolidation,"vs S_T01: +3 measures ([Total Charge], [Avg LOS], [Charge per Day]), -3 measures ([Total LengthOfStay], [Avg TotalCharge], [Record Count])"
+S_T07,S_T07_Retail_Sales,Model (model_id 7),S_T01,0,Separate Model,No other report reaches 70% overlap (closest: S_T01 at 0%); distinct tables/measures
+S_T08,S_T08,Model (model_id 8),S_T01,11,Separate Model,No other report reaches 70% overlap (closest: S_T01 at 11%); distinct tables/measures
+S_T09,S_T09,Model (model_id 1),S_T01,100,Same Shared Model,vs S_T01: identical objects
+S_T10,S_T10,Model (model_id 1),S_T01,83,Candidate for Consolidation,"vs S_T01: +1 tables (SecurityMap), +2 columns (SecurityMap.UserEmail, SecurityMap.Department)"
