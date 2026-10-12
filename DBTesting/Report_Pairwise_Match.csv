@@ -1,0 +1,3 @@
+Report_ID,Compared_With,Match_%,J_Tables,J_Columns,J_Measures,J_Relationships,Pair_Decision
+S_T01,S_T02,20,0,0,100,0,Separate Model
+S_T02,S_T01,20,0,0,100,0,Separate Model
