@@ -1,0 +1,120 @@
+Report_ID,Table_Name,Column_Name,Data_Type,Is_Key,Is_Hidden
+S_T01,Admissions,AdmissionsID,Whole Number,Yes,No
+S_T01,Admissions,Date,Date/Time,No,No
+S_T01,Admissions,PatientID,Whole Number,Yes,No
+S_T01,Admissions,Department,String,No,No
+S_T01,Admissions,LengthOfStay,Whole Number,No,No
+S_T01,Admissions,TotalCharge,Decimal Number,No,No
+S_T01,Patient,PatientID,Whole Number,Yes,No
+S_T01,Patient,PatientName,String,No,No
+S_T01,Patient,AgeGroup,String,No,No
+S_T01,Patient,Insurance,String,No,No
+S_T02,Admission,AdmissionsID,Whole Number,Yes,No
+S_T02,Admission,AdmissionDate,Date/Time,No,No
+S_T02,Admission,PatientID,Whole Number,Yes,No
+S_T02,Admission,Department,String,No,No
+S_T02,Admission,Length_Of_Stay,Whole Number,No,No
+S_T02,Admission,Total_Charge,Decimal Number,No,No
+S_T02,Patients,PatientID,Whole Number,Yes,No
+S_T02,Patients,Patient_Name,String,No,No
+S_T02,Patients,Age_Group,String,No,No
+S_T02,Patients,InsuranceType,String,No,No
+S_T03,Admissions,AdmissionsID,Whole Number,Yes,No
+S_T03,Admissions,Date,Date/Time,No,No
+S_T03,Admissions,PatientID,Whole Number,Yes,No
+S_T03,Admissions,Department,String,No,No
+S_T03,Admissions,LengthOfStay,Whole Number,No,No
+S_T03,Admissions,TotalCharge,Decimal Number,No,No
+S_T03,Patient,PatientID,Whole Number,Yes,No
+S_T03,Patient,PatientName,String,No,No
+S_T03,Patient,AgeGroup,String,No,No
+S_T03,Patient,Insurance,String,No,No
+S_T04,Admissions,AdmissionsID,Whole Number,Yes,No
+S_T04,Admissions,Date,Date/Time,Yes,No
+S_T04,Admissions,PatientID,Whole Number,Yes,No
+S_T04,Admissions,Department,String,Yes,No
+S_T04,Admissions,LengthOfStay,Whole Number,No,No
+S_T04,Admissions,TotalCharge,Decimal Number,No,No
+S_T04,Calendar,Date,Date/Time,Yes,No
+S_T04,Calendar,Year,Whole Number,No,No
+S_T04,Calendar,Quarter,String,No,No
+S_T04,Calendar,MonthNumber,Whole Number,No,No
+S_T04,Calendar,Month,String,No,No
+S_T04,Calendar,Day,Whole Number,No,No
+S_T04,Calendar,DayName,String,No,No
+S_T04,Department,Department,String,Yes,No
+S_T04,Patient,PatientID,Whole Number,Yes,No
+S_T04,Patient,PatientName,String,No,No
+S_T04,Patient,AgeGroup,String,No,No
+S_T04,Patient,Insurance,String,No,No
+S_T05,Admissions,AdmissionsID,Whole Number,Yes,No
+S_T05,Admissions,Date,Date/Time,No,No
+S_T05,Admissions,PatientID,Whole Number,Yes,No
+S_T05,Admissions,Department,String,No,No
+S_T05,Admissions,LengthOfStay,Whole Number,No,No
+S_T05,Admissions,TotalCharge,Decimal Number,No,No
+S_T05,Patient,PatientID,Whole Number,Yes,No
+S_T05,Patient,PatientName,String,No,No
+S_T05,Patient,AgeGroup,String,No,No
+S_T05,Patient,Insurance,String,No,No
+S_T06,Admissions,AdmissionsID,Whole Number,Yes,No
+S_T06,Admissions,Date,Date/Time,No,No
+S_T06,Admissions,PatientID,Whole Number,Yes,No
+S_T06,Admissions,Department,String,No,No
+S_T06,Admissions,LengthOfStay,Whole Number,No,No
+S_T06,Admissions,TotalCharge,Decimal Number,No,No
+S_T06,Patient,PatientID,Whole Number,Yes,No
+S_T06,Patient,PatientName,String,No,No
+S_T06,Patient,AgeGroup,String,No,No
+S_T06,Patient,Insurance,String,No,No
+S_T07,Customer,CustomerID,Whole Number,Yes,No
+S_T07,Customer,CustomerName,String,No,No
+S_T07,Customer,Segment,String,No,No
+S_T07,Customer,Region,String,No,No
+S_T07,Customer,City,String,No,No
+S_T07,Sales,SalesID,Whole Number,Yes,No
+S_T07,Sales,Date,Date/Time,No,No
+S_T07,Sales,CustomerID,Whole Number,Yes,No
+S_T07,Sales,Product,String,No,No
+S_T07,Sales,Category,String,No,No
+S_T07,Sales,Quantity,Whole Number,No,No
+S_T07,Sales,UnitPrice,Decimal Number,No,No
+S_T07,Sales,Revenue,Decimal Number,No,No
+S_T08,Appointments,AppointmentID,Whole Number,Yes,No
+S_T08,Appointments,AppointmentDate,Date/Time,No,No
+S_T08,Appointments,PatientID,Whole Number,Yes,No
+S_T08,Appointments,ProviderID,Whole Number,Yes,No
+S_T08,Appointments,VisitType,String,No,No
+S_T08,Appointments,Status,String,No,No
+S_T08,Appointments,DurationMinutes,Whole Number,No,No
+S_T08,Appointments,Fee,Decimal Number,No,No
+S_T08,Patient,PatientID,Whole Number,Yes,No
+S_T08,Patient,PatientName,String,No,No
+S_T08,Patient,City,String,No,No
+S_T08,Provider,ProviderID,Whole Number,Yes,No
+S_T08,Provider,ProviderName,String,No,No
+S_T08,Provider,Specialty,String,No,No
+S_T08,Provider,ProviderCity,String,No,No
+S_T08,Provider,YearsExperience,Whole Number,No,No
+S_T09,Admissions,AdmissionsID,Whole Number,Yes,No
+S_T09,Admissions,Date,Date/Time,No,No
+S_T09,Admissions,PatientID,Whole Number,Yes,No
+S_T09,Admissions,Department,String,No,No
+S_T09,Admissions,LengthOfStay,Whole Number,No,No
+S_T09,Admissions,TotalCharge,Decimal Number,No,No
+S_T09,Patient,PatientID,Whole Number,Yes,No
+S_T09,Patient,PatientName,String,No,No
+S_T09,Patient,AgeGroup,String,No,No
+S_T09,Patient,Insurance,String,No,No
+S_T10,Admissions,AdmissionsID,Whole Number,Yes,No
+S_T10,Admissions,Date,Date/Time,No,No
+S_T10,Admissions,PatientID,Whole Number,Yes,No
+S_T10,Admissions,Department,String,No,No
+S_T10,Admissions,LengthOfStay,Whole Number,No,No
+S_T10,Admissions,TotalCharge,Decimal Number,No,No
+S_T10,Patient,PatientID,Whole Number,Yes,No
+S_T10,Patient,PatientName,String,No,No
+S_T10,Patient,AgeGroup,String,No,No
+S_T10,Patient,Insurance,String,No,No
+S_T10,SecurityMap,UserEmail,String,No,Yes
+S_T10,SecurityMap,Department,String,No,Yes
