@@ -1,0 +1,11 @@
+Report_ID,Report_Name,Proposed_Model,Closest_Report,Match_%,Classification,Reason
+S_T01,S_T01,Model (model_id 1),S_T03,100,Consolidation,Exact Duplicate; vs S_T03: identical objects
+S_T02,S_T02,Model (model_id 2),S_T01,20,Separate Model,Completely Different Domain; No other report reaches 70% overlap (closest: S_T01 at 20%); distinct tables/measures
+S_T03,S_T03,Model (model_id 1),S_T01,100,Consolidation with Business Validation,"Same Structure, Different DAX; vs S_T01: ~3 DAX ([Total LengthOfStay], [Avg TotalCharge], [Record Count])"
+S_T04,S_T04,Model (model_id 4),S_T01,61,Separate Model,"Very Little Overlap; No other report reaches 70% overlap (closest: S_T01 at 61%); distinct tables/measures; data issue: relationship Admissions.PatientID -> Patient.PatientID differs from model 5 cardinality"
+S_T05,S_T05_Hospital_Admissions,Model (model_id 1),S_T01,100,Separate Model,"Different Relationship / Cardinality; vs S_T01: ~1 relationships (Admissions.PatientID>Patient.PatientID: many-many/both vs many-one/single); data issue: many-to-many relationship on Admissions to Patient"
+S_T06,S_T06,Model (model_id 1),S_T01,80,Separate Model,"Same Model, Different Measure / Business Logic; vs S_T01: +3 measures ([Avg LOS], [Charge per Day], [High Cost Admissions], ...), -3 measures ([Avg TotalCharge], [Record Count], [Total LengthOfStay]); ~business filters in DAX"
+S_T07,S_T07_Retail_Sales,Model (model_id 7),S_T01,0,Separate Model,Completely Different Domain; No other report reaches 70% overlap (closest: S_T01 at 0%); distinct tables/measures
+S_T08,S_T08,Model (model_id 8),S_T01,11,Separate Model,Completely Different Domain; No other report reaches 70% overlap (closest: S_T01 at 11%); distinct tables/measures
+S_T09,S_T09,Model (model_id 1),S_T01,100,Same Shared Model,Exact Duplicate; vs S_T01: identical objects; ~source (Embedded→SQL Server)
+S_T10,S_T10,Model (model_id 1),S_T01,83,Separate Model,"Different RLS; vs S_T01: +1 tables (SecurityMap), +2 columns (SecurityMap[UserEmail], SecurityMap[Department])"
