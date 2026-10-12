@@ -1,0 +1,3 @@
+Report_ID,Report_Name,Proposed_Model,Closest_Report,Match_%,Classification,Reason
+S_T01,S_T01,Model (model_id 1),S_T02,20,Separate Model,"No other report reaches 70% overlap (closest: S_T02 at 20%); distinct tables/measures"
+S_T02,S_T02,Model (model_id 2),S_T01,20,Separate Model,"No other report reaches 70% overlap (closest: S_T01 at 20%); distinct tables/measures"
