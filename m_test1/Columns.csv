@@ -1,0 +1,103 @@
+Report_ID,Table_Name,Column_Name,Data_Type,Is_Key,Is_Hidden
+2,PolicyHolder,PolicyHolderID,Whole Number,Yes,No
+2,PolicyHolder,PolicyHolderName,String,No,No
+2,PolicyHolder,PolicyType,String,No,No
+2,PolicyHolder,Region,String,No,No
+2,Premium,PremiumID,Whole Number,No,No
+2,Premium,Date,Date/Time,No,No
+2,Premium,PolicyHolderID,Whole Number,Yes,No
+2,Premium,PaymentStatus,String,No,No
+2,Premium,PremiumAmount,Decimal Number,No,No
+2,Premium,ClaimsPaid,Decimal Number,No,No
+3,Policyholder,PolicyholderID,Whole Number,Yes,No
+3,Policyholder,PolicyholderName,String,No,No
+3,Policyholder,PolicyType,String,No,No
+3,Policyholder,Region,String,No,No
+3,Premiums,PremiumsID,Whole Number,No,No
+3,Premiums,Date,Date/Time,No,No
+3,Premiums,PolicyholderID,Whole Number,Yes,No
+3,Premiums,PaymentStatus,String,No,No
+3,Premiums,PremiumAmount,Decimal Number,No,No
+3,Premiums,ClaimPaid,Decimal Number,No,No
+4,DimDate,Date,Date/Time,Yes,No
+4,DimDate,Year,Whole Number,No,No
+4,DimDate,MonthNo,Whole Number,No,No
+4,DimDate,Month,String,No,No
+4,Policyholder,PolicyholderID,Whole Number,Yes,No
+4,Policyholder,PolicyholderName,String,No,No
+4,Policyholder,PolicyType,String,No,No
+4,Policyholder,Region,String,Yes,No
+4,Premiums,PremiumsID,Whole Number,No,No
+4,Premiums,Date,Date/Time,Yes,No
+4,Premiums,PolicyholderID,Whole Number,Yes,No
+4,Premiums,PaymentStatus,String,No,No
+4,Premiums,PremiumAmount,Decimal Number,No,No
+4,Premiums,ClaimPaid,Decimal Number,No,No
+4,RegionTarget,Region,String,Yes,No
+4,RegionTarget,AnnualPremiumTarget,Decimal Number,No,No
+5,Policyholder,PolicyholderID,Whole Number,Yes,No
+5,Policyholder,PolicyholderName,String,No,No
+5,Policyholder,PolicyType,String,No,No
+5,Policyholder,Region,String,No,No
+5,Premiums,PremiumsID,Whole Number,No,No
+5,Premiums,Date,Date/Time,No,No
+5,Premiums,PolicyholderID,Whole Number,Yes,No
+5,Premiums,PaymentStatus,String,No,No
+5,Premiums,PremiumAmount,Decimal Number,No,No
+5,Premiums,ClaimPaid,Decimal Number,No,No
+6,Policyholder,PolicyholderID,Whole Number,Yes,No
+6,Policyholder,PolicyholderName,String,No,No
+6,Policyholder,PolicyType,String,No,No
+6,Policyholder,Region,String,No,No
+6,Premiums,PremiumsID,Whole Number,No,No
+6,Premiums,Date,Date/Time,No,No
+6,Premiums,PolicyholderID,Whole Number,Yes,No
+6,Premiums,PaymentStatus,String,No,No
+6,Premiums,PremiumAmount,Decimal Number,No,No
+6,Premiums,ClaimPaid,Decimal Number,No,No
+7,Product,ProductID,Whole Number,Yes,No
+7,Product,ProductName,String,No,No
+7,Product,Category,String,No,No
+7,Product,UnitPrice,Decimal Number,No,No
+7,Sales,SaleID,Whole Number,No,No
+7,Sales,SaleDate,Date/Time,No,No
+7,Sales,ProductID,Whole Number,Yes,No
+7,Sales,StoreID,Whole Number,Yes,No
+7,Sales,Quantity,Whole Number,No,No
+7,Sales,Revenue,Decimal Number,No,No
+7,Store,StoreID,Whole Number,Yes,No
+7,Store,StoreName,String,No,No
+7,Store,City,String,No,No
+8,Adjuster,AdjusterID,Whole Number,Yes,No
+8,Adjuster,AdjusterName,String,No,No
+8,Adjuster,Team,String,No,No
+8,Claims,ClaimID,Whole Number,No,No
+8,Claims,PolicyholderID,Whole Number,Yes,No
+8,Claims,AdjusterID,Whole Number,Yes,No
+8,Claims,ClaimDate,Date/Time,No,No
+8,Claims,ClaimType,String,No,No
+8,Claims,ClaimStatus,String,No,No
+8,Claims,ClaimAmount,Decimal Number,No,No
+8,Claims,SettlementDays,Whole Number,No,No
+8,Policyholder,PolicyholderID,Whole Number,Yes,No
+8,Policyholder,Region,String,No,No
+9,Policyholder,PolicyholderID,Whole Number,Yes,No
+9,Policyholder,PolicyholderName,String,No,No
+9,Policyholder,PolicyType,String,No,No
+9,Policyholder,Region,String,No,No
+9,Premiums,PremiumsID,Whole Number,No,No
+9,Premiums,Date,Date/Time,No,No
+9,Premiums,PolicyholderID,Whole Number,Yes,No
+9,Premiums,PaymentStatus,String,No,No
+9,Premiums,PremiumAmount,Decimal Number,No,No
+9,Premiums,ClaimPaid,Decimal Number,No,No
+10,Policyholder,PolicyholderID,Whole Number,Yes,No
+10,Policyholder,PolicyholderName,String,No,No
+10,Policyholder,PolicyType,String,No,No
+10,Policyholder,Region,String,No,No
+10,Premiums,PremiumsID,Whole Number,No,No
+10,Premiums,Date,Date/Time,No,No
+10,Premiums,PolicyholderID,Whole Number,Yes,No
+10,Premiums,PaymentStatus,String,No,No
+10,Premiums,PremiumAmount,Decimal Number,No,No
+10,Premiums,ClaimPaid,Decimal Number,No,No
