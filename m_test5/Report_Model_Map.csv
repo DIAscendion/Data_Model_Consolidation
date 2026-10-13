@@ -1,0 +1,11 @@
+Report_ID,Report_Name,Proposed_Model,Closest_Report,Match_%,Classification,Reason
+1,M_01_Insurance_Policies,Insurance_Policies,3,100,Consolidation,Exact Duplicate; vs 3: identical objects
+2,M_02_Insurance_Policies,Insurance_Policies,1,40,Separate Model,"Very Little Overlap; No other report reaches 70% overlap (closest: 1 at 40%); distinct tables/measures"
+3,M_03_Insurance_Policies,Insurance_Policies,1,100,Separate Model,Same Model, Different Measure / Business Logic; vs 1: ~2 DAX ([Total PremiumAmount], [Avg ClaimPaid])
+4,M_04_Insurance_Policies,Insurance_Policies,1,63,Separate Model,"Very Little Overlap; No other report reaches 70% overlap (closest: 1 at 63%); distinct tables/measures"
+5,M_05_Insurance_Policies,Insurance_Policies,1,100,Consolidation,Exact Duplicate; vs 1: identical objects
+6,M_06_Insurance_Policies,Insurance_Policies,1,83,Separate Model,"Same Model, Different Measure / Business Logic; vs 1: +3 measures ([Collected Premium], [Overdue Premium], [Loss Ratio]...), -2 measures ([Total PremiumAmount], [Avg ClaimPaid])"
+7,M_07_Insurance_Policies,Insurance_Policies,1,0,Separate Model,"Completely Different Domain; No other report reaches 70% overlap (closest: 1 at 0%); distinct tables/measures"
+8,M_08_Insurance_Policies,Insurance_Policies,1,11,Separate Model,"Very Little Overlap; No other report reaches 70% overlap (closest: 1 at 11%); distinct tables/measures"
+9,M_09_Insurance_Policies,Insurance_Policies,1,100,Consolidation,Same Model but Different Source; vs 1: ~source (different non-embedded source count)
+10,M_10_Insurance_Policies,Insurance_Policies,1,100,Consolidation,Exact Duplicate; vs 1: identical objects
