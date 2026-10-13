@@ -1,0 +1,11 @@
+Report_ID,Report_Name,Semantic_Model,Domain,Table_Count,Column_Count,Measure_Count,Relationship_Count,Data_Source_Count,Similarity Score,Complexity Score
+1,M_01_Insurance_Policies,Insurance_Policies (model_id 1),Other,2,10,3,1,0,100,22
+2,M_02_Insurance_Policies,Insurance_Policies (model_id 2),Other,2,10,3,1,0,40,22
+3,M_03_Insurance_Policies,Insurance_Policies (model_id 3),Other,2,10,3,1,0,100,25
+4,M_04_Insurance_Policies,Insurance_Policies (model_id 4),Other,4,16,3,3,0,63,36
+5,M_05_Insurance_Policies,Insurance_Policies (model_id 5),Other,2,10,3,1,0,100,22
+6,M_06_Insurance_Policies,Insurance_Policies (model_id 6),Other,2,10,6,1,0,83,31
+7,M_07_Insurance_Policies,Insurance_Policies (model_id 7),Sales,3,13,3,2,0,0,29
+8,M_08_Insurance_Policies,Insurance_Policies (model_id 8),Other,3,13,4,2,0,11,34
+9,M_09_Insurance_Policies,Insurance_Policies (model_id 9),Other,2,10,3,1,1,100,22
+10,M_10_Insurance_Policies,Insurance_Policies (model_id 10),Other,2,10,3,1,0,100,22
