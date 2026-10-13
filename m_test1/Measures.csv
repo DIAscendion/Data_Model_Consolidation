@@ -1,0 +1,32 @@
+Report_ID,Table_Name,Measure_Name,Expression
+2,Premium,Total PremiumAmount,SUM(Premium[PremiumAmount])
+2,Premium,Avg ClaimPaid,AVERAGE(Premium[ClaimsPaid])
+2,Premium,Record Count,COUNTROWS(Premium)
+3,Premiums,Total PremiumAmount,"CALCULATE(SUM(Premiums[PremiumAmount]), Premiums[PaymentStatus] <> ""Lapsed"")"
+3,Premiums,Avg ClaimPaid,"DIVIDE(SUM(Premiums[ClaimPaid]), DISTINCTCOUNT(Premiums[PolicyholderID]))"
+3,Premiums,Record Count,DISTINCTCOUNT(Premiums[PremiumsID])
+4,Premiums,Total PremiumAmount,SUM(Premiums[PremiumAmount])
+4,Premiums,Avg ClaimPaid,AVERAGE(Premiums[ClaimPaid])
+4,Premiums,Record Count,COUNTROWS(Premiums)
+5,Premiums,Total PremiumAmount,SUM(Premiums[PremiumAmount])
+5,Premiums,Avg ClaimPaid,AVERAGE(Premiums[ClaimPaid])
+5,Premiums,Record Count,COUNTROWS(Premiums)
+6,Premiums,Collected Premium,"CALCULATE(SUM(Premiums[PremiumAmount]), Premiums[PaymentStatus] = ""Paid"")"
+6,Premiums,Overdue Premium,"CALCULATE(SUM(Premiums[PremiumAmount]), Premiums[PaymentStatus] = ""Overdue"")"
+6,Premiums,Loss Ratio,"DIVIDE(SUM(Premiums[ClaimPaid]), SUM(Premiums[PremiumAmount]))"
+6,Premiums,Lapse Rate,"DIVIDE(CALCULATE(COUNTROWS(Premiums), Premiums[PaymentStatus] = ""Lapsed""), COUNTROWS(Premiums))"
+6,Premiums,Net Underwriting Result,[Collected Premium] - SUM(Premiums[ClaimPaid])
+6,Premiums,Record Count,COUNTROWS(Premiums)
+7,Sales,Total Revenue,SUM(Sales[Revenue])
+7,Sales,Units Sold,SUM(Sales[Quantity])
+7,Sales,Avg Order Value,"DIVIDE(SUM(Sales[Revenue]), COUNTROWS(Sales))"
+8,Claims,Total Claim Amount,SUM(Claims[ClaimAmount])
+8,Claims,Open Claims,"CALCULATE(COUNTROWS(Claims), Claims[ClaimStatus] = ""Open"")"
+8,Claims,Avg Settlement Days,"CALCULATE(AVERAGE(Claims[SettlementDays]), Claims[ClaimStatus] = ""Settled"")"
+8,Claims,Rejection Rate,"DIVIDE(CALCULATE(COUNTROWS(Claims), Claims[ClaimStatus] = ""Rejected""), COUNTROWS(Claims))"
+9,Premiums,Total PremiumAmount,SUM(Premiums[PremiumAmount])
+9,Premiums,Avg ClaimPaid,AVERAGE(Premiums[ClaimPaid])
+9,Premiums,Record Count,COUNTROWS(Premiums)
+10,Premiums,Total PremiumAmount,SUM(Premiums[PremiumAmount])
+10,Premiums,Avg ClaimPaid,AVERAGE(Premiums[ClaimPaid])
+10,Premiums,Record Count,COUNTROWS(Premiums)
