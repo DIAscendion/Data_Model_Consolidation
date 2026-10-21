@@ -1,0 +1,111 @@
+Report_ID,Table_Name,Measure_Name,Expression
+12276834,DataSet1,Textbox40.expr1,"=Fields!ACCOUNTNUMBER.Value + Environment.NewLine + Fields!VENDOR_NAME.Value + Environment.NewLine + Fields!VENDOR_ADDRESSLINE1.Value + Environment.NewLine + iif(Fields!VENDOR_ADDRESSLINE2.Value<>"" ,Fields!VENDOR_ADDRESSLINE2.Value + Environment.NewLine, "" ) + Fields!VENDOR_CITY.Value + ", " + Fields!VENDOR_STATEPROVINCENAME.Value + " " + Fields!VENDOR_POSTALCODE.Value"
+12276834,DataSet1,REVISIONNUMBER.expr1,=LAST(Fields!REVISIONNUMBER.Value)
+12276834,DataSet1,PO_MODIFIEDDATE.expr1,=Last(Fields!PO_MODIFIEDDATE.Value)
+12276834,DataSet1,Textbox3.expr1,"=""   US - #"" & Fields!PURCHASEORDER_ID.Value"
+12276834,DataSet1,Textbox2.expr1,"=""Purchase Order:"""
+12276834,DataSet1,Textbox8.expr1,"= iif(Fields!TITLE.Value<>"" ,Fields!TITLE.Value + " ","") + Fields!FIRSTNAME.Value + " " + iif(Fields!MIDDLENAME.Value<>"" ,Fields!MIDDLENAME.Value + " ","") + Fields!LASTNAME.Value + Environment.NewLine + Fields!JOBTITLE.Value + " - " + Fields!DEPARTMENT.Value + Environment.NewLine + Fields!COMPANY.Value + Environment.NewLine + Fields!EMPLOYEE_ADDRESSLINE1.Value + Environment.NewLine + iif(Fields!EMPLOYEE_ADDRESSLINE2.Value<>"" ,Fields!EMPLOYEE_ADDRESSLINE2.Value + Environment.NewLine, "" ) + Fields!EMPLOYEE_CITY.Value + ", " + Fields!EMPLOYEE_STATEPROVINCENAME.Value + " " + Fields!EMPLOYEE_POSTALCODE.Value"
+12276834,Report_Expressions,ExecutionTime.expr1,=Globals!ExecutionTime
+18917376,dsDailyTrend,Received.Y,=Sum(Fields!ReceivedCount.Value)
+18917376,dsDailyTrend,Failed.Y,=Sum(Fields!FailedCount.Value)
+18917376,dsFailureReason,FailedRecords.Y,=Sum(Fields!FailedCount.Value)
+18917376,dsKPI,tbKpiTotalReceived.expr1,"=First(Fields!TotalReceived.Value, ""dsKPI"")"
+18917376,dsKPI,tbKpiProcessed.expr1,"=First(Fields!SuccessfullyProcessed.Value, ""dsKPI"")"
+18917376,dsKPI,tbKpiFailed.expr1,"=First(Fields!FailedRecords.Value, ""dsKPI"")"
+18917376,dsKPI,tbKpiOpenExceptions.expr1,"=First(Fields!OpenExceptions.Value, ""dsKPI"")"
+18917376,dsKPI,tbKpiPendingReprocessing.expr1,"=First(Fields!PendingReprocessing.Value, ""dsKPI"")"
+18917376,dsKPI,tbKpiSuccessPct.expr1,"=First(Fields!SuccessPct.Value, ""dsKPI"")"
+18917376,dsStatus,Records.Y,=Sum(Fields!RecordCount.Value)
+18917376,Report_Expressions,tbHeaderParams.expr1,"=""Processing Date: "" & Format(Parameters!StartDate.Value, ""MM/dd/yyyy"") & "" - "" & Format(Parameters!EndDate.Value, ""MM/dd/yyyy"") & ""   \|   Source System: "" & Parameters!SourceSystem.Value & ""   \|   Vendor: "" & Parameters!Vendor.Value & ""   \|   Enrollment Type: "" & Parameters!EnrollmentType.Value"
+18917376,Report_Expressions,tbFooter.expr1,"=""Run on: "" & Globals!ExecutionTime & "" Page "" & Globals!PageNumber & "" of "" & Globals!TotalPages"
+20,dsDailyTrend,Received.Y,=Sum(Fields!ReceivedCount.Value)
+20,dsDailyTrend,Failed.Y,=Sum(Fields!FailedCount.Value)
+20,dsFailureReason,FailedRecords.Y,=Sum(Fields!FailedCount.Value)
+20,dsKPI,tbKpiTotalReceived.expr1,"=First(Fields!TotalReceived.Value, ""dsKPI"")"
+20,dsKPI,tbKpiProcessed.expr1,"=First(Fields!SuccessfullyProcessed.Value, ""dsKPI"")"
+20,dsKPI,tbKpiFailed.expr1,"=First(Fields!FailedRecords.Value, ""dsKPI"")"
+20,dsKPI,tbKpiOpenExceptions.expr1,"=First(Fields!OpenExceptions.Value, ""dsKPI"")"
+20,dsKPI,tbKpiPendingReprocessing.expr1,"=First(Fields!PendingReprocessing.Value, ""dsKPI"")"
+20,dsKPI,tbKpiSuccessPct.expr1,"=First(Fields!SuccessPct.Value, ""dsKPI"")"
+20,dsStatus,Records.Y,=Sum(Fields!RecordCount.Value)
+20,Report_Expressions,tbHeaderParams.expr1,"=""Processing Date: "" & Format(Parameters!StartDate.Value, ""MM/dd/yyyy"") & "" - "" & Format(Parameters!EndDate.Value, ""MM/dd/yyyy"") & ""   \|   Source System: "" & Parameters!SourceSystem.Value & ""   \|   Vendor: "" & Parameters!Vendor.Value & ""   \|   Enrollment Type: "" & Parameters!EnrollmentType.Value"
+20,Report_Expressions,tbFooter.expr1,"=""Run on: "" & Globals!ExecutionTime & "" Page "" & Globals!PageNumber & "" of "" & Globals!TotalPages"
+23199519,Report_Expressions,txtPageNumbers.expr1,"= ""Page "" & Globals!OverallPageNumber & "" of "" & Globals!OverallTotalPages"
+23199519,rsd_StateSales,txtStatePercentSales.expr1,"=Fields!TOTAL_SALES.Value/Sum(Fields!TOTAL_SALES.Value, ""rsd_YearlySales"")"
+23199519,rsd_StateSales,txtYearSales.expr1,"=Sum(Fields!TOTAL_SALES.Value, ""rsd_StateSales"")"
+23199519,rsd_YearlySales,txtMonth.expr1,=MonthName(Fields!MONTH.Value)
+23199519,rsd_YearlySales,TOTAL_SALES.Y,=Sum(Fields!TOTAL_SALES.Value)
+23199519,rsd_YearlySales,txtMonthPercentSales.expr1,"=Fields!TOTAL_SALES.Value / Sum(Fields!TOTAL_SALES.Value, ""rsd_YearlySales"")"
+23199519,rsd_YearlySales,txtYearSalesHeading.expr1,"=First(Fields!SALES_YEAR.Value, ""rsd_YearlySales"") & "" Total Sales:"""
+61297539,Sales.csv,PREytoPROFITLOD  ,{ FIXED :SUM(IF YEAR([Order Date])={MAX(YEAR([Order Date]))-1} THEN [Profit Per Order] END)}
+61297539,Sales.csv,ytoQUANTITYLOD  (copy),{ FIXED :SUM(IF YEAR([Order Date])={MAX(YEAR([Order Date]))} THEN [Order Quantity] END)}
+61297539,Sales.csv,YTODSALES,IF YEAR([Order Date])= {MAX(YEAR([Order Date]))} THEN [Sales] END
+61297539,Sales.csv,YOY QUANTITY%  ,([ytoQUANTITYLOD (copy)]-[PREytoQUANTITYLOD])/ [PREytoQUANTITYLOD]
+61297539,Sales.csv,ytosaleLOD,{ FIXED :SUM(IF YEAR([Order Date])={MAX(YEAR([Order Date]))} THEN [Sales] END)}
+61297539,Sales.csv,SALE MARGIN,"IF SUM([YTODSALES])-SUM([PYTODSALES (copy)])<0 THEN ""LESS THAN PY"" ELSEIF SUM([YTODSALES])-SUM([PYTODSALES (copy)])>0 THEN ""MORE THAN PY"" ELSEIF ISNULL(SUM([PYTODSALES (copy)])) THEN ""NO SALES IN PY"" END"
+61297539,Sales.csv,YOY SALES,([ytosaleLOD]-[PREytosaleLOD (copy)])/[PREytosaleLOD (copy)]
+61297539,Sales.csv,PREytosaleLOD (copy),{ FIXED :SUM(IF YEAR([Order Date])={MAX(YEAR([Order Date]))-1} THEN [Sales] END)}
+61297539,Sales.csv,PERDIFF,(SUM([YTODSALES])-SUM([PYTODSALES (copy)]))/SUM([PYTODSALES (copy)])
+61297539,Sales.csv,ytoPROFITLOD  ,{ FIXED :SUM(IF YEAR([Order Date])={MAX(YEAR([Order Date]))} THEN [Profit Per Order] END)}
+61297539,Sales.csv,PREytoQUANTITYLOD   ,{ FIXED :SUM(IF YEAR([Order Date])={MAX(YEAR([Order Date]))-1} THEN [Order Quantity] END)}
+61297539,Sales.csv,POSITIVE % DIFF,IF [PERDIFF]>0 THEN '˄' END
+61297539,Sales.csv,YOY PROFIT%,([ytoPROFITLOD]-[PREytoPROFITLOD])/[PREytoPROFITLOD]
+61297539,Sales.csv,PYTODSALES (copy),IF YEAR([Order Date])= {MAX(YEAR([Order Date]))-1} THEN [Sales] END
+86699992,cognosvw_interactivity_map,ref_data_item.Y,=Count(Fields!ref_data_item.Value)
+86699992,cognosvw_interactivity_map,owner_id.Y,=Count(Fields!owner_id.Value)
+S_T01,Admissions,Total LengthOfStay,SUM(Admissions[LengthOfStay])
+S_T01,Admissions,Avg TotalCharge,AVERAGE(Admissions[TotalCharge])
+S_T01,Admissions,Record Count,COUNTROWS(Admissions)
+S_T02,Admission,Total Length_Of_Stay,SUM(Admission[Length_Of_Stay])
+S_T02,Admission,Avg Total_Charge,AVERAGE(Admission[Total_Charge])
+S_T02,Admission,Record Count,COUNTROWS(Admission)
+S_T03,Admissions,Total LengthOfStay,"SUMX(Admissions, Admissions[LengthOfStay])"
+S_T03,Admissions,Avg TotalCharge,"DIVIDE(SUM(Admissions[TotalCharge]), COUNTROWS(Admissions))"
+S_T03,Admissions,Record Count,DISTINCTCOUNT(Admissions[AdmissionsID])
+S_T04,Admissions,Total LengthOfStay,SUM(Admissions[LengthOfStay])
+S_T04,Admissions,Avg TotalCharge,AVERAGE(Admissions[TotalCharge])
+S_T04,Admissions,Record Count,COUNTROWS(Admissions)
+S_T05,Admissions,Total LengthOfStay,SUM(Admissions[LengthOfStay])
+S_T05,Admissions,Avg TotalCharge,AVERAGE(Admissions[TotalCharge])
+S_T05,Admissions,Record Count,COUNTROWS(Admissions)
+S_T06,Admissions,Total Charge,"SUMX(FILTER(Admissions, Admissions[Department] <> ""ER"" && Admissions[LengthOfStay] > 0), MIN(Admissions[TotalCharge], 50000))"
+S_T06,Admissions,Avg LOS,"DIVIDE([Total LengthOfStay], [Record Count])"
+S_T06,Admissions,Charge per Day,"DIVIDE([Total Charge], [Total LengthOfStay])"
+S_T06,Admissions,High Cost Admissions,"COUNTROWS(FILTER(Admissions, Admissions[Department] <> ""ER"" && Admissions[LengthOfStay] > 0 && Admissions[TotalCharge] > 50000))"
+S_T06,Admissions,Long Stay %,"DIVIDE(COUNTROWS(FILTER(Admissions, Admissions[Department] <> ""ER"" && Admissions[LengthOfStay] > 0 && Admissions[LengthOfStay] >= 14)), [Record Count])"
+S_T06,Admissions,Medicare Admissions,"COUNTROWS(FILTER(Admissions, Admissions[Department] <> ""ER"" && Admissions[LengthOfStay] > 0 && RELATED(Patient[Insurance]) = ""Medicare""))"
+S_T07,Customer,Customer Count,COUNTROWS(Customer)
+S_T07,Sales,Total Revenue,SUM(Sales[Revenue])
+S_T07,Sales,Total Quantity,SUM(Sales[Quantity])
+S_T07,Sales,Order Count,COUNTROWS(Sales)
+S_T07,Sales,Avg Order Value,"DIVIDE([Total Revenue], [Order Count])"
+S_T07,Sales,Active Customers,DISTINCTCOUNT(Sales[CustomerID])
+S_T07,Sales,Revenue per Customer,"DIVIDE([Total Revenue], [Active Customers])"
+S_T08,Appointments,Total Appointments,COUNTROWS(Appointments)
+S_T08,Appointments,Completed Appointments,"CALCULATE(COUNTROWS(Appointments), Appointments[Status] = ""Completed"")"
+S_T08,Appointments,No-Show Rate,"DIVIDE(CALCULATE(COUNTROWS(Appointments), Appointments[Status] = ""No-Show""), COUNTROWS(Appointments))"
+S_T08,Appointments,Avg Duration (Min),AVERAGE(Appointments[DurationMinutes])
+S_T08,Appointments,Total Fee,SUM(Appointments[Fee])
+S_T08,Appointments,Avg Fee per Appointment,"DIVIDE(SUM(Appointments[Fee]), COUNTROWS(Appointments))"
+S_T08,Provider,Provider Count,COUNTROWS(Provider)
+S_T08,Provider,Avg Years Experience,AVERAGE(Provider[YearsExperience])
+S_T09,Admissions,Total LengthOfStay,SUM(Admissions[LengthOfStay])
+S_T09,Admissions,Avg TotalCharge,AVERAGE(Admissions[TotalCharge])
+S_T09,Admissions,Record Count,COUNTROWS(Admissions)
+S_T10,Admissions,Total LengthOfStay,SUM(Admissions[LengthOfStay])
+S_T10,Admissions,Avg TotalCharge,AVERAGE(Admissions[TotalCharge])
+S_T10,Admissions,Record Count,COUNTROWS(Admissions)
+TABLEAU DASHBOARD 1,Sales.csv,ytosaleLOD,{ FIXED :SUM(IF YEAR([Order Date])={MAX(YEAR([Order Date]))} THEN [Sales] END)}
+TABLEAU DASHBOARD 1,Sales.csv,YOY SALES,([ytosaleLOD]-[PREytosaleLOD (copy)])/[PREytosaleLOD (copy)]
+TABLEAU DASHBOARD 1,Sales.csv,YTODSALES,IF YEAR([Order Date])= {MAX(YEAR([Order Date]))} THEN [Sales] END
+TABLEAU DASHBOARD 1,Sales.csv,PERDIFF,(SUM([YTODSALES])-SUM([PYTODSALES (copy)]))/SUM([PYTODSALES (copy)])
+TABLEAU DASHBOARD 1,Sales.csv,SALE MARGIN,"IF SUM([YTODSALES])-SUM([PYTODSALES (copy)])<0 THEN ""LESS THAN PY"" ELSEIF SUM([YTODSALES])-SUM([PYTODSALES (copy)])>0 THEN ""MORE THAN PY"" ELSEIF ISNULL(SUM([PYTODSALES (copy)])) THEN ""NO SALES IN PY"" END"
+TABLEAU DASHBOARD 1,Sales.csv,POSITIVE % DIFF,IF [PERDIFF]>0 THEN '˄' END
+TABLEAU DASHBOARD 1,Sales.csv,PREytoQUANTITYLOD   ,{ FIXED :SUM(IF YEAR([Order Date])={MAX(YEAR([Order Date]))-1} THEN [Order Quantity] END)}
+TABLEAU DASHBOARD 1,Sales.csv,PREytoPROFITLOD  ,{ FIXED :SUM(IF YEAR([Order Date])={MAX(YEAR([Order Date]))-1} THEN [Profit Per Order] END)}
+TABLEAU DASHBOARD 1,Sales.csv,YOY QUANTITY%  ,([ytoQUANTITYLOD (copy)]-[PREytoQUANTITYLOD])/ [PREytoQUANTITYLOD]
+TABLEAU DASHBOARD 1,Sales.csv,YOY PROFIT%,([ytoPROFITLOD]-[PREytoPROFITLOD])/[PREytoPROFITLOD]
+TABLEAU DASHBOARD 1,Sales.csv,PYTODSALES (copy),IF YEAR([Order Date])= {MAX(YEAR([Order Date]))-1} THEN [Sales] END
+TABLEAU DASHBOARD 1,Sales.csv,ytoQUANTITYLOD  (copy),{ FIXED :SUM(IF YEAR([Order Date])={MAX(YEAR([Order Date]))} THEN [Order Quantity] END)}
+TABLEAU DASHBOARD 1,Sales.csv,PREytosaleLOD (copy),{ FIXED :SUM(IF YEAR([Order Date])={MAX(YEAR([Order Date]))-1} THEN [Sales] END)}
+TABLEAU DASHBOARD 1,Sales.csv,ytoPROFITLOD  ,{ FIXED :SUM(IF YEAR([Order Date])={MAX(YEAR([Order Date]))} THEN [Profit Per Order] END)}
