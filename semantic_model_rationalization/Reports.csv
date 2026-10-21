@@ -1,0 +1,21 @@
+Report_ID,Report_Name,Semantic_Model,Domain,Table_Count,Column_Count,Measure_Count,Relationship_Count,Data_Source_Count,Similarity Score,Complexity Score
+12276834,Order test,Order test,HR,2,49,7,0,1,4,69
+18917376,Enrollment_Processing_Summary_Re,Enrollment_Processing_Summary_Re (model_id 18917376),Other,7,23,12,1,1,100,68
+20,Enrollment_Processing_Summary_Re,Enrollment_Processing_Summary_Re (model_id 20),Other,7,23,12,1,1,100,68
+23199519,Sales_V1_Test,Sales_V1_Test,Sales,3,7,7,0,1,8,30
+39498323,SuperstoreNetflix_Dashboard,SuperstoreNetflix_Dashboard,Sales,8,18,0,0,1,0,42
+58521846,House Sales Dashboard,House Sales Dashboard,Sales,1,16,0,0,1,0,19
+61297539,TABLEAU DASHBOARD 1,TABLEAU DASHBOARD 1 (model_id 61297539),Sales,1,23,14,0,1,100,60
+80137063,Netfix Workbook,Netfix Workbook,Other,2,14,0,0,1,0,21
+86699992,Postgre_Contos_RDL_Report,Postgre_Contos_RDL_Report,Other,1,8,2,0,1,0,15
+S_T01,S_T01,Model (model_id 1),HR,2,10,3,1,0,100,25
+S_T02,S_T02,Model (model_id 2),HR,2,10,3,1,0,20,25
+S_T03,S_T03,Model (model_id 3),HR,2,10,3,1,0,100,28
+S_T04,S_T04,Model (model_id 4),HR,4,18,3,3,1,61,39
+S_T05,S_T05_Hospital_Admissions,Model (model_id 5),HR,2,10,3,1,0,100,25
+S_T06,S_T06,Model (model_id 6),HR,2,10,6,1,0,80,38
+S_T07,S_T07_Retail_Sales,Model (model_id 7),Sales,2,13,7,1,0,0,34
+S_T08,S_T08,Model (model_id 8),Other,3,16,8,2,0,11,43
+S_T09,S_T09,Model (model_id 9),HR,2,10,3,1,1,100,25
+S_T10,S_T10,Model (model_id 10),HR,3,12,3,1,0,83,26
+TABLEAU DASHBOARD 1,TABLEAU DASHBOARD 1 (model_id 19),TABLEAU DASHBOARD 1 (model_id 19),Sales,1,23,14,0,1,100,60
