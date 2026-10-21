@@ -1,0 +1,3 @@
+Report_ID,Report_Name,Proposed_Model,Closest_Report,Match_%,Classification,Reason
+23199519,Sales_V1_Test,Sales_V1_Test,80137063,0,Separate Model,"Completely Different Domain; No other report reaches 70% overlap (closest: 80137063 at 0%); distinct tables/measures"
+80137063,Netfix Workbook,Netfix Workbook,23199519,0,Separate Model,"Completely Different Domain; No other report reaches 70% overlap (closest: 23199519 at 0%); distinct tables/measures"
