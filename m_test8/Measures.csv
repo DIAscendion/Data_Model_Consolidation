@@ -1,0 +1,8 @@
+Report_ID,Table_Name,Measure_Name,Expression
+23199519,Report_Expressions,txtPageNumbers.expr1,"= ""Page "" & Globals!OverallPageNumber & "" of "" & Globals!OverallTotalPages"
+23199519,rsd_StateSales,txtStatePercentSales.expr1,"=Fields!TOTAL_SALES.Value/Sum(Fields!TOTAL_SALES.Value, ""rsd_YearlySales"")"
+23199519,rsd_StateSales,txtYearSales.expr1,"=Sum(Fields!TOTAL_SALES.Value, ""rsd_StateSales"")"
+23199519,rsd_YearlySales,txtMonth.expr1,=MonthName(Fields!MONTH.Value)
+23199519,rsd_YearlySales,TOTAL_SALES.Y,=Sum(Fields!TOTAL_SALES.Value)
+23199519,rsd_YearlySales,txtMonthPercentSales.expr1,"=Fields!TOTAL_SALES.Value / Sum(Fields!TOTAL_SALES.Value, ""rsd_YearlySales"")"
+23199519,rsd_YearlySales,txtYearSalesHeading.expr1,"=First(Fields!SALES_YEAR.Value, ""rsd_YearlySales"") & "" Total Sales:"""
