@@ -1,0 +1,6 @@
+Report_ID,Table_Name,Table_Type,Column_Count,Measure_Count
+23199519,Report_Expressions,Measure,0,1
+23199519,rsd_StateSales,Dimension,3,2
+23199519,rsd_YearlySales,Fact,4,4
+80137063,netflix_titles.csv,Fact,13,0
+80137063,Parameters,Dimension,1,0
