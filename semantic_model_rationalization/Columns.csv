@@ -1,0 +1,324 @@
+Report_ID,Table_Name,Column_Name,Data_Type,Is_Key,Is_Hidden
+12276834,DataSet1,PURCHASEORDER_ID,String,Yes,No
+12276834,DataSet1,PO_ORDERDATE,Date/Time,No,No
+12276834,DataSet1,REVISIONNUMBER,Whole Number,No,No
+12276834,DataSet1,PO_MODIFIEDDATE,Date/Time,No,No
+12276834,DataSet1,PO_STATUS,Whole Number,No,No
+12276834,DataSet1,VENDOR_ID,Whole Number,No,No
+12276834,DataSet1,VENDOR_NAME,String,No,No
+12276834,DataSet1,ACCOUNTNUMBER,String,No,No
+12276834,DataSet1,VENDOR_ADDRESSLINE1,String,No,No
+12276834,DataSet1,VENDOR_ADDRESSLINE2,String,No,No
+12276834,DataSet1,VENDOR_CITY,String,No,No
+12276834,DataSet1,VENDOR_STATEPROVINCENAME,String,No,No
+12276834,DataSet1,VENDOR_POSTALCODE,String,No,No
+12276834,DataSet1,VENDOR_COUNTRYREGIONNAME,String,No,No
+12276834,DataSet1,VENDOR_STATUS,True/False,No,No
+12276834,DataSet1,VENDOR_PURCHASING_URL,String,No,No
+12276834,DataSet1,BUYER_ID,Whole Number,No,No
+12276834,DataSet1,TITLE,String,No,No
+12276834,DataSet1,FIRSTNAME,String,No,No
+12276834,DataSet1,MIDDLENAME,String,No,No
+12276834,DataSet1,LASTNAME,String,No,No
+12276834,DataSet1,DEPARTMENT,String,No,No
+12276834,DataSet1,JOBTITLE,String,No,No
+12276834,DataSet1,COMPANY,String,No,No
+12276834,DataSet1,EMPLOYEE_ADDRESSLINE1,String,No,No
+12276834,DataSet1,EMPLOYEE_ADDRESSLINE2,String,No,No
+12276834,DataSet1,EMPLOYEE_CITY,String,No,No
+12276834,DataSet1,EMPLOYEE_STATEPROVINCENAME,String,No,No
+12276834,DataSet1,EMPLOYEE_POSTALCODE,String,No,No
+12276834,DataSet1,EMPLOYEE_COUNTRYREGIONNAME,String,No,No
+12276834,DataSet1,SHIPPING_METHOD_ID,Whole Number,No,No
+12276834,DataSet1,SHIPPING_METHOD,String,No,No
+12276834,DataSet1,PURCHASEORDER_DETAIL_ID,Whole Number,No,No
+12276834,DataSet1,PRODUCT_ID,Whole Number,No,No
+12276834,DataSet1,PRODUCT_NAME,String,No,No
+12276834,DataSet1,PRODUCT_NUMBER,String,No,No
+12276834,DataSet1,PRODUCT_SIZE,String,No,No
+12276834,DataSet1,COLOR,String,No,No
+12276834,DataSet1,ITEM_DUEDATE,Date/Time,No,No
+12276834,DataSet1,ITEM_MODIFIEDDATE,Date/Time,No,No
+12276834,DataSet1,UNITPRICE,Fixed Decimal Number,No,No
+12276834,DataSet1,ORDERQTY,Whole Number,No,No
+12276834,DataSet1,LINETOTAL,Fixed Decimal Number,No,No
+12276834,DataSet1,SUBTOTAL,Fixed Decimal Number,No,No
+12276834,DataSet1,TAXAMT,Fixed Decimal Number,No,No
+12276834,DataSet1,FREIGHT,Fixed Decimal Number,No,No
+12276834,DataSet1,TOTALDUE,Fixed Decimal Number,No,No
+12276834,DataSet1,PO_SHIPDATE,Date/Time,No,No
+12276834,DataSet1,BARCODE_IMAGE,Binary,No,No
+18917376,dsDailyTrend,ProcessingDate,Date/Time,Yes,No
+18917376,dsDailyTrend,ReceivedCount,Whole Number,No,No
+18917376,dsDailyTrend,FailedCount,Whole Number,No,No
+18917376,dsExceptionDetail,RecordId,Whole Number,No,No
+18917376,dsExceptionDetail,MemberID,String,No,No
+18917376,dsExceptionDetail,MemberName,String,No,No
+18917376,dsExceptionDetail,DateOfBirth,Date/Time,No,No
+18917376,dsExceptionDetail,SourceSystem,String,Yes,No
+18917376,dsExceptionDetail,VendorName,String,No,No
+18917376,dsExceptionDetail,FailureReason,String,No,No
+18917376,dsExceptionDetail,ExceptionStatus,String,No,No
+18917376,dsExceptionDetail,ExceptionDate,Date/Time,No,No
+18917376,dsFailureReason,FailureReason,String,Yes,No
+18917376,dsFailureReason,FailedCount,Whole Number,No,No
+18917376,dsKPI,TotalReceived,Whole Number,No,No
+18917376,dsKPI,SuccessfullyProcessed,Whole Number,No,No
+18917376,dsKPI,FailedRecords,Whole Number,No,No
+18917376,dsKPI,OpenExceptions,Whole Number,No,No
+18917376,dsKPI,PendingReprocessing,Whole Number,No,No
+18917376,dsKPI,SuccessPct,Fixed Decimal Number,No,No
+18917376,dsSourceSystem,SourceSystem,String,Yes,No
+18917376,dsStatus,ProcessingStatus,String,Yes,No
+18917376,dsStatus,RecordCount,Whole Number,No,No
+20,dsDailyTrend,ProcessingDate,Date/Time,Yes,No
+20,dsDailyTrend,ReceivedCount,Whole Number,No,No
+20,dsDailyTrend,FailedCount,Whole Number,No,No
+20,dsExceptionDetail,RecordId,Whole Number,No,No
+20,dsExceptionDetail,MemberID,String,No,No
+20,dsExceptionDetail,MemberName,String,No,No
+20,dsExceptionDetail,DateOfBirth,Date/Time,No,No
+20,dsExceptionDetail,SourceSystem,String,Yes,No
+20,dsExceptionDetail,VendorName,String,No,No
+20,dsExceptionDetail,FailureReason,String,No,No
+20,dsExceptionDetail,ExceptionStatus,String,No,No
+20,dsExceptionDetail,ExceptionDate,Date/Time,No,No
+20,dsFailureReason,FailureReason,String,Yes,No
+20,dsFailureReason,FailedCount,Whole Number,No,No
+20,dsKPI,TotalReceived,Whole Number,No,No
+20,dsKPI,SuccessfullyProcessed,Whole Number,No,No
+20,dsKPI,FailedRecords,Whole Number,No,No
+20,dsKPI,OpenExceptions,Whole Number,No,No
+20,dsKPI,PendingReprocessing,Whole Number,No,No
+20,dsKPI,SuccessPct,Fixed Decimal Number,No,No
+20,dsSourceSystem,SourceSystem,String,Yes,No
+20,dsStatus,ProcessingStatus,String,Yes,No
+20,dsStatus,RecordCount,Whole Number,No,No
+23199519,rsd_StateSales,COUNTRY,String,No,No
+23199519,rsd_StateSales,STATE,String,No,No
+23199519,rsd_StateSales,TOTAL_SALES,Fixed Decimal Number,No,No
+23199519,rsd_YearlySales,MONTH,Whole Number,Yes,No
+23199519,rsd_YearlySales,Month_Name,String,No,No
+23199519,rsd_YearlySales,SALES_YEAR,Whole Number,No,No
+23199519,rsd_YearlySales,TOTAL_SALES,Fixed Decimal Number,No,No
+39498323,DS_Added,YearAdded,String,Yes,No
+39498323,DS_Added,Titles,Whole Number,No,No
+39498323,DS_Category,Category,String,Yes,No
+39498323,DS_Category,Sales,Decimal Number,No,No
+39498323,DS_Category,Profit,Decimal Number,No,No
+39498323,DS_Country,Country,String,Yes,No
+39498323,DS_Country,Titles,Whole Number,No,No
+39498323,DS_Genre,Genre,String,Yes,No
+39498323,DS_Genre,Titles,Whole Number,No,No
+39498323,DS_Region,Region,String,Yes,No
+39498323,DS_Region,Profit,Decimal Number,No,No
+39498323,DS_SubCategory,SubCategory,String,Yes,No
+39498323,DS_SubCategory,Sales,Decimal Number,No,No
+39498323,DS_Type,Type,String,Yes,No
+39498323,DS_Type,Titles,Whole Number,No,No
+39498323,DS_Yearly,Year,String,Yes,No
+39498323,DS_Yearly,Sales,Decimal Number,No,No
+39498323,DS_Yearly,Profit,Decimal Number,No,No
+58521846,Data,id,Whole Number,No,No
+58521846,Data,date,Date/Time,No,No
+58521846,Data,price,Whole Number,No,No
+58521846,Data,bedrooms,Whole Number,No,No
+58521846,Data,bathrooms,Decimal Number,No,No
+58521846,Data,sqft_living,Whole Number,No,No
+58521846,Data,sqft_lot,Whole Number,No,No
+58521846,Data,floors,Decimal Number,No,No
+58521846,Data,waterfront,String,No,No
+58521846,Data,view,String,No,No
+58521846,Data,condition,String,No,No
+58521846,Data,grade,Whole Number,No,No
+58521846,Data,yr_built,Whole Number,No,No
+58521846,Data,zipcode,Whole Number,No,No
+58521846,Data,lat,Decimal Number,No,No
+58521846,Data,long,Decimal Number,No,No
+61297539,Sales.csv,Additional Order items,String,No,No
+61297539,Sales.csv,Category Name,String,No,No
+61297539,Sales.csv,Customer City,String,No,No
+61297539,Sales.csv,Customer Country,String,No,No
+61297539,Sales.csv,Customer Fname,String,No,No
+61297539,Sales.csv,Customer Id,Whole Number,No,No
+61297539,Sales.csv,Customer Segment,String,No,No
+61297539,Sales.csv,Customer State,String,No,No
+61297539,Sales.csv,Customer Zipcode,Whole Number,No,No
+61297539,Sales.csv,Market,String,No,No
+61297539,Sales.csv,Order Customer Id,Whole Number,No,No
+61297539,Sales.csv,Order Date,Date/Time,No,No
+61297539,Sales.csv,Order Id,Whole Number,No,No
+61297539,Sales.csv,Order Region,String,No,No
+61297539,Sales.csv,Order Item Total,Decimal Number,No,No
+61297539,Sales.csv,Order Quantity,Whole Number,No,No
+61297539,Sales.csv,Product Price,Decimal Number,No,No
+61297539,Sales.csv,Profit Margin,Decimal Number,No,No
+61297539,Sales.csv,Profit Per Order,Decimal Number,No,No
+61297539,Sales.csv,Sales,Decimal Number,No,No
+61297539,Sales.csv,YOY SALES MARGIN,String,No,No
+61297539,Sales.csv,YOY QUANTITY MARGIN   ,String,No,No
+61297539,Sales.csv,YOY PROFIT MARGIN  ,String,No,No
+80137063,netflix_titles.csv,show_id,Whole Number,No,No
+80137063,netflix_titles.csv,type,String,No,No
+80137063,netflix_titles.csv,title,String,No,No
+80137063,netflix_titles.csv,director,String,No,No
+80137063,netflix_titles.csv,cast,String,No,No
+80137063,netflix_titles.csv,country,String,No,No
+80137063,netflix_titles.csv,date_added,String,No,No
+80137063,netflix_titles.csv,release_year,Whole Number,No,No
+80137063,netflix_titles.csv,rating,String,No,No
+80137063,netflix_titles.csv,duration,String,No,No
+80137063,netflix_titles.csv,listed_in,String,No,No
+80137063,netflix_titles.csv,description,String,No,No
+80137063,netflix_titles.csv,Year,Date/Time,No,No
+80137063,Parameters,Year,Date/Time,No,Yes
+86699992,cognosvw_interactivity_map,report_name,String,No,No
+86699992,cognosvw_interactivity_map,owner_type,String,No,No
+86699992,cognosvw_interactivity_map,owner_id,String,No,No
+86699992,cognosvw_interactivity_map,owner_name,String,No,No
+86699992,cognosvw_interactivity_map,condition_role,String,Yes,No
+86699992,cognosvw_interactivity_map,operator,String,No,No
+86699992,cognosvw_interactivity_map,ref_app_variable,String,No,No
+86699992,cognosvw_interactivity_map,ref_data_item,String,Yes,No
+S_T01,Admissions,AdmissionsID,Whole Number,Yes,No
+S_T01,Admissions,Date,Date/Time,No,No
+S_T01,Admissions,PatientID,Whole Number,Yes,No
+S_T01,Admissions,Department,String,No,No
+S_T01,Admissions,LengthOfStay,Whole Number,No,No
+S_T01,Admissions,TotalCharge,Decimal Number,No,No
+S_T01,Patient,PatientID,Whole Number,Yes,No
+S_T01,Patient,PatientName,String,No,No
+S_T01,Patient,AgeGroup,String,No,No
+S_T01,Patient,Insurance,String,No,No
+S_T02,Admission,AdmissionsID,Whole Number,Yes,No
+S_T02,Admission,AdmissionDate,Date/Time,No,No
+S_T02,Admission,PatientID,Whole Number,Yes,No
+S_T02,Admission,Department,String,No,No
+S_T02,Admission,Length_Of_Stay,Whole Number,No,No
+S_T02,Admission,Total_Charge,Decimal Number,No,No
+S_T02,Patients,PatientID,Whole Number,Yes,No
+S_T02,Patients,Patient_Name,String,No,No
+S_T02,Patients,Age_Group,String,No,No
+S_T02,Patients,InsuranceType,String,No,No
+S_T03,Admissions,AdmissionsID,Whole Number,Yes,No
+S_T03,Admissions,Date,Date/Time,No,No
+S_T03,Admissions,PatientID,Whole Number,Yes,No
+S_T03,Admissions,Department,String,No,No
+S_T03,Admissions,LengthOfStay,Whole Number,No,No
+S_T03,Admissions,TotalCharge,Decimal Number,No,No
+S_T03,Patient,PatientID,Whole Number,Yes,No
+S_T03,Patient,PatientName,String,No,No
+S_T03,Patient,AgeGroup,String,No,No
+S_T03,Patient,Insurance,String,No,No
+S_T04,Admissions,AdmissionsID,Whole Number,Yes,No
+S_T04,Admissions,Date,Date/Time,Yes,No
+S_T04,Admissions,PatientID,Whole Number,Yes,No
+S_T04,Admissions,Department,String,Yes,No
+S_T04,Admissions,LengthOfStay,Whole Number,No,No
+S_T04,Admissions,TotalCharge,Decimal Number,No,No
+S_T04,Calendar,Date,Date/Time,Yes,No
+S_T04,Calendar,Year,Whole Number,No,No
+S_T04,Calendar,Quarter,String,No,No
+S_T04,Calendar,MonthNumber,Whole Number,No,No
+S_T04,Calendar,Month,String,No,No
+S_T04,Calendar,Day,Whole Number,No,No
+S_T04,Calendar,DayName,String,No,No
+S_T04,Department,Department,String,Yes,No
+S_T04,Patient,PatientID,Whole Number,Yes,No
+S_T04,Patient,PatientName,String,No,No
+S_T04,Patient,AgeGroup,String,No,No
+S_T04,Patient,Insurance,String,No,No
+S_T05,Admissions,AdmissionsID,Whole Number,Yes,No
+S_T05,Admissions,Date,Date/Time,No,No
+S_T05,Admissions,PatientID,Whole Number,Yes,No
+S_T05,Admissions,Department,String,No,No
+S_T05,Admissions,LengthOfStay,Whole Number,No,No
+S_T05,Admissions,TotalCharge,Decimal Number,No,No
+S_T05,Patient,PatientID,Whole Number,Yes,No
+S_T05,Patient,PatientName,String,No,No
+S_T05,Patient,AgeGroup,String,No,No
+S_T05,Patient,Insurance,String,No,No
+S_T06,Admissions,AdmissionsID,Whole Number,Yes,No
+S_T06,Admissions,Date,Date/Time,No,No
+S_T06,Admissions,PatientID,Whole Number,Yes,No
+S_T06,Admissions,Department,String,No,No
+S_T06,Admissions,LengthOfStay,Whole Number,No,No
+S_T06,Admissions,TotalCharge,Decimal Number,No,No
+S_T06,Patient,PatientID,Whole Number,Yes,No
+S_T06,Patient,PatientName,String,No,No
+S_T06,Patient,AgeGroup,String,No,No
+S_T06,Patient,Insurance,String,No,No
+S_T07,Customer,CustomerID,Whole Number,Yes,No
+S_T07,Customer,CustomerName,String,No,No
+S_T07,Customer,Segment,String,No,No
+S_T07,Customer,Region,String,No,No
+S_T07,Customer,City,String,No,No
+S_T07,Sales,SalesID,Whole Number,Yes,No
+S_T07,Sales,Date,Date/Time,No,No
+S_T07,Sales,CustomerID,Whole Number,Yes,No
+S_T07,Sales,Product,String,No,No
+S_T07,Sales,Category,String,No,No
+S_T07,Sales,Quantity,Whole Number,No,No
+S_T07,Sales,UnitPrice,Decimal Number,No,No
+S_T07,Sales,Revenue,Decimal Number,No,No
+S_T08,Appointments,AppointmentID,Whole Number,Yes,No
+S_T08,Appointments,AppointmentDate,Date/Time,No,No
+S_T08,Appointments,PatientID,Whole Number,Yes,No
+S_T08,Appointments,ProviderID,Whole Number,Yes,No
+S_T08,Appointments,VisitType,String,No,No
+S_T08,Appointments,Status,String,No,No
+S_T08,Appointments,DurationMinutes,Whole Number,No,No
+S_T08,Appointments,Fee,Decimal Number,No,No
+S_T08,Patient,PatientID,Whole Number,Yes,No
+S_T08,Patient,PatientName,String,No,No
+S_T08,Patient,City,String,No,No
+S_T08,Provider,ProviderID,Whole Number,Yes,No
+S_T08,Provider,ProviderName,String,No,No
+S_T08,Provider,Specialty,String,No,No
+S_T08,Provider,ProviderCity,String,No,No
+S_T08,Provider,YearsExperience,Whole Number,No,No
+S_T09,Admissions,AdmissionsID,Whole Number,Yes,No
+S_T09,Admissions,Date,Date/Time,No,No
+S_T09,Admissions,PatientID,Whole Number,Yes,No
+S_T09,Admissions,Department,String,No,No
+S_T09,Admissions,LengthOfStay,Whole Number,No,No
+S_T09,Admissions,TotalCharge,Decimal Number,No,No
+S_T09,Patient,PatientID,Whole Number,Yes,No
+S_T09,Patient,PatientName,String,No,No
+S_T09,Patient,AgeGroup,String,No,No
+S_T09,Patient,Insurance,String,No,No
+S_T10,Admissions,AdmissionsID,Whole Number,Yes,No
+S_T10,Admissions,Date,Date/Time,No,No
+S_T10,Admissions,PatientID,Whole Number,Yes,No
+S_T10,Admissions,Department,String,No,No
+S_T10,Admissions,LengthOfStay,Whole Number,No,No
+S_T10,Admissions,TotalCharge,Decimal Number,No,No
+S_T10,Patient,PatientID,Whole Number,Yes,No
+S_T10,Patient,PatientName,String,No,No
+S_T10,Patient,AgeGroup,String,No,No
+S_T10,Patient,Insurance,String,No,No
+S_T10,SecurityMap,UserEmail,String,No,Yes
+S_T10,SecurityMap,Department,String,No,Yes
+TABLEAU DASHBOARD 1,Sales.csv,Additional Order items,String,No,No
+TABLEAU DASHBOARD 1,Sales.csv,Category Name,String,No,No
+TABLEAU DASHBOARD 1,Sales.csv,Customer City,String,No,No
+TABLEAU DASHBOARD 1,Sales.csv,Customer Country,String,No,No
+TABLEAU DASHBOARD 1,Sales.csv,Customer Fname,String,No,No
+TABLEAU DASHBOARD 1,Sales.csv,Customer Id,Whole Number,No,No
+TABLEAU DASHBOARD 1,Sales.csv,Customer Segment,String,No,No
+TABLEAU DASHBOARD 1,Sales.csv,Customer State,String,No,No
+TABLEAU DASHBOARD 1,Sales.csv,Customer Zipcode,Whole Number,No,No
+TABLEAU DASHBOARD 1,Sales.csv,Market,String,No,No
+TABLEAU DASHBOARD 1,Sales.csv,Order Customer Id,Whole Number,No,No
+TABLEAU DASHBOARD 1,Sales.csv,Order Date,Date/Time,No,No
+TABLEAU DASHBOARD 1,Sales.csv,Order Id,Whole Number,No,No
+TABLEAU DASHBOARD 1,Sales.csv,Order Region,String,No,No
+TABLEAU DASHBOARD 1,Sales.csv,Order Item Total,Decimal Number,No,No
+TABLEAU DASHBOARD 1,Sales.csv,Order Quantity,Whole Number,No,No
+TABLEAU DASHBOARD 1,Sales.csv,Product Price,Decimal Number,No,No
+TABLEAU DASHBOARD 1,Sales.csv,Profit Margin,Decimal Number,No,No
+TABLEAU DASHBOARD 1,Sales.csv,Profit Per Order,Decimal Number,No,No
+TABLEAU DASHBOARD 1,Sales.csv,Sales,Decimal Number,No,No
+TABLEAU DASHBOARD 1,Sales.csv,YOY SALES MARGIN,String,No,No
+TABLEAU DASHBOARD 1,Sales.csv,YOY QUANTITY MARGIN   ,String,No,No
+TABLEAU DASHBOARD 1,Sales.csv,YOY PROFIT MARGIN  ,String,No,No
