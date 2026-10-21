@@ -1,0 +1,22 @@
+Report_ID,Table_Name,Column_Name,Data_Type,Is_Key,Is_Hidden
+23199519,rsd_StateSales,COUNTRY,String,No,No
+23199519,rsd_StateSales,STATE,String,No,No
+23199519,rsd_StateSales,TOTAL_SALES,Fixed Decimal Number,No,No
+23199519,rsd_YearlySales,MONTH,Whole Number,Yes,No
+23199519,rsd_YearlySales,Month_Name,String,No,No
+23199519,rsd_YearlySales,SALES_YEAR,Whole Number,No,No
+23199519,rsd_YearlySales,TOTAL_SALES,Fixed Decimal Number,No,No
+80137063,netflix_titles.csv,show_id,Whole Number,No,No
+80137063,netflix_titles.csv,type,String,No,No
+80137063,netflix_titles.csv,title,String,No,No
+80137063,netflix_titles.csv,director,String,No,No
+80137063,netflix_titles.csv,cast,String,No,No
+80137063,netflix_titles.csv,country,String,No,No
+80137063,netflix_titles.csv,date_added,String,No,No
+80137063,netflix_titles.csv,release_year,Whole Number,No,No
+80137063,netflix_titles.csv,rating,String,No,No
+80137063,netflix_titles.csv,duration,String,No,No
+80137063,netflix_titles.csv,listed_in,String,No,No
+80137063,netflix_titles.csv,description,String,No,No
+80137063,netflix_titles.csv,Year,Date/Time,No,No
+80137063,Parameters,Year,Date/Time,No,Yes
