@@ -1,0 +1,21 @@
+Report_ID,Report_Name,Proposed_Model,Closest_Report,Match_%,Classification,Reason
+12276834,Order test,Order test,23199519,8,Separate Model,Very Little Overlap; No other report reaches 70% overlap (closest: 23199519 at 8%); distinct tables/measures
+18917376,Enrollment_Processing_Summary_Re,Enrollment_Processing_Summary_Re (model_id 18917376),20,100,Consolidation,Exact Duplicate; vs 20: identical objects
+20,Enrollment_Processing_Summary_Re,Enrollment_Processing_Summary_Re (model_id 18917376),18917376,100,Consolidation,Exact Duplicate; vs 18917376: identical objects
+23199519,Sales_V1_Test,Sales_V1_Test,12276834,8,Separate Model,Very Little Overlap; No other report reaches 70% overlap (closest: 12276834 at 8%); distinct tables/measures
+39498323,SuperstoreNetflix_Dashboard,SuperstoreNetflix_Dashboard,12276834,0,Separate Model,Completely Different Domain; No other report reaches 70% overlap (closest: 12276834 at 0%); distinct tables/measures
+58521846,House Sales Dashboard,House Sales Dashboard,12276834,0,Separate Model,Completely Different Domain; No other report reaches 70% overlap (closest: 12276834 at 0%); distinct tables/measures
+61297539,TABLEAU DASHBOARD 1,TABLEAU DASHBOARD 1 (model_id 61297539),TABLEAU DASHBOARD 1,100,Consolidation,Exact Duplicate; vs TABLEAU DASHBOARD 1: identical objects
+80137063,Netfix Workbook,Netfix Workbook,12276834,0,Separate Model,Completely Different Domain; No other report reaches 70% overlap (closest: 12276834 at 0%); distinct tables/measures
+86699992,Postgre_Contos_RDL_Report,Postgre_Contos_RDL_Report,12276834,0,Separate Model,Completely Different Domain; No other report reaches 70% overlap (closest: 12276834 at 0%); distinct tables/measures
+S_T01,S_T01,Model (model_id 1),S_T03,100,Consolidation,Exact Duplicate; vs S_T03: identical objects
+S_T02,S_T02,Model (model_id 2),S_T01,20,Separate Model,Very Little Overlap; No other report reaches 70% overlap (closest: S_T01 at 20%); distinct tables/measures
+S_T03,S_T03,Model (model_id 1),S_T01,100,Consolidation,Same Structure, Different DAX; vs S_T01: ~3 DAX (Total LengthOfStay, Avg TotalCharge, Record Count)
+S_T04,S_T04,Model (model_id 4),S_T01,61,Separate Model,Very Little Overlap; No other report reaches 70% overlap (closest: S_T01 at 61%); distinct tables/measures
+S_T05,S_T05_Hospital_Admissions,Model (model_id 1),S_T01,100,Consolidation,Exact Duplicate; vs S_T01: identical objects
+S_T06,S_T06,Model (model_id 1),S_T01,80,Separate Model,Same Model, Different Measure / Business Logic; vs S_T01: +3 measures (Avg LOS, Charge per Day, High Cost Admissions), -3 measures (Avg TotalCharge, Record Count, Total LengthOfStay), ~4 DAX (Total Charge, Long Stay %, Medicare Admissions, High Cost Admissions)
+S_T07,S_T07_Retail_Sales,Model (model_id 7),12276834,0,Separate Model,Completely Different Domain; No other report reaches 70% overlap (closest: 12276834 at 0%); distinct tables/measures
+S_T08,S_T08,Model (model_id 8),S_T01,11,Separate Model,Very Little Overlap; No other report reaches 70% overlap (closest: S_T01 at 11%); distinct tables/measures
+S_T09,S_T09,Model (model_id 1),S_T01,100,Consolidation,Same Model but Different Source; vs S_T01: identical objects; ~source (different data source metadata)
+S_T10,S_T10,Model (model_id 1),S_T01,83,Separate Model,Different RLS; vs S_T01: +1 tables (SecurityMap), +2 columns (SecurityMap[Department], SecurityMap[UserEmail])
+TABLEAU DASHBOARD 1,TABLEAU DASHBOARD 1 (model_id 19),TABLEAU DASHBOARD 1 (model_id 61297539),61297539,100,Consolidation,Exact Duplicate; vs 61297539: identical objects
