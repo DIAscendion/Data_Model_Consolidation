@@ -1,0 +1,196 @@
+Report_ID,Table_Name,Column_Name,Data_Type,Is_Key,Is_Hidden
+12276834,DataSet1,PURCHASEORDER_ID,String,Yes,No
+12276834,DataSet1,PO_ORDERDATE,Date/Time,No,No
+12276834,DataSet1,REVISIONNUMBER,Whole Number,No,No
+12276834,DataSet1,PO_MODIFIEDDATE,Date/Time,No,No
+12276834,DataSet1,PO_STATUS,Whole Number,No,No
+12276834,DataSet1,VENDOR_ID,Whole Number,No,No
+12276834,DataSet1,VENDOR_NAME,String,No,No
+12276834,DataSet1,ACCOUNTNUMBER,String,No,No
+12276834,DataSet1,VENDOR_ADDRESSLINE1,String,No,No
+12276834,DataSet1,VENDOR_ADDRESSLINE2,String,No,No
+12276834,DataSet1,VENDOR_CITY,String,No,No
+12276834,DataSet1,VENDOR_STATEPROVINCENAME,String,No,No
+12276834,DataSet1,VENDOR_POSTALCODE,String,No,No
+12276834,DataSet1,VENDOR_COUNTRYREGIONNAME,String,No,No
+12276834,DataSet1,VENDOR_STATUS,True/False,No,No
+12276834,DataSet1,VENDOR_PURCHASING_URL,String,No,No
+12276834,DataSet1,BUYER_ID,Whole Number,No,No
+12276834,DataSet1,TITLE,String,No,No
+12276834,DataSet1,FIRSTNAME,String,No,No
+12276834,DataSet1,MIDDLENAME,String,No,No
+12276834,DataSet1,LASTNAME,String,No,No
+12276834,DataSet1,DEPARTMENT,String,No,No
+12276834,DataSet1,JOBTITLE,String,No,No
+12276834,DataSet1,COMPANY,String,No,No
+12276834,DataSet1,EMPLOYEE_ADDRESSLINE1,String,No,No
+12276834,DataSet1,EMPLOYEE_ADDRESSLINE2,String,No,No
+12276834,DataSet1,EMPLOYEE_CITY,String,No,No
+12276834,DataSet1,EMPLOYEE_STATEPROVINCENAME,String,No,No
+12276834,DataSet1,EMPLOYEE_POSTALCODE,String,No,No
+12276834,DataSet1,EMPLOYEE_COUNTRYREGIONNAME,String,No,No
+12276834,DataSet1,SHIPPING_METHOD_ID,Whole Number,No,No
+12276834,DataSet1,SHIPPING_METHOD,String,No,No
+12276834,DataSet1,PURCHASEORDER_DETAIL_ID,Whole Number,No,No
+12276834,DataSet1,PRODUCT_ID,Whole Number,No,No
+12276834,DataSet1,PRODUCT_NAME,String,No,No
+12276834,DataSet1,PRODUCT_NUMBER,String,No,No
+12276834,DataSet1,PRODUCT_SIZE,String,No,No
+12276834,DataSet1,COLOR,String,No,No
+12276834,DataSet1,ITEM_DUEDATE,Date/Time,No,No
+12276834,DataSet1,ITEM_MODIFIEDDATE,Date/Time,No,No
+12276834,DataSet1,UNITPRICE,Fixed Decimal Number,No,No
+12276834,DataSet1,ORDERQTY,Whole Number,No,No
+12276834,DataSet1,LINETOTAL,Fixed Decimal Number,No,No
+12276834,DataSet1,SUBTOTAL,Fixed Decimal Number,No,No
+12276834,DataSet1,TAXAMT,Fixed Decimal Number,No,No
+12276834,DataSet1,FREIGHT,Fixed Decimal Number,No,No
+12276834,DataSet1,TOTALDUE,Fixed Decimal Number,No,No
+12276834,DataSet1,PO_SHIPDATE,Date/Time,No,No
+12276834,DataSet1,BARCODE_IMAGE,Binary,No,No
+21236432,rsd_Cities,City,String,Yes,No
+21236432,rsd_Cities,StateProvinceCode,String,Yes,No
+21236432,rsd_Countries,Country_ID,String,Yes,No
+21236432,rsd_Countries,Country,String,No,No
+21236432,rsd_States,State_Code,String,Yes,No
+21236432,rsd_States,StateName,String,No,No
+21236432,rsd_Stores_By_City,Store_ID,Whole Number,No,No
+21236432,rsd_Stores_By_City,StoreName,String,No,No
+21236432,rsd_Stores_By_City,AddressLine1,String,No,No
+21236432,rsd_Stores_By_City,AddressLine2,String,No,No
+21236432,rsd_Stores_By_City,City,String,Yes,No
+21236432,rsd_Stores_By_City,StateProvinceCode,String,Yes,No
+21236432,rsd_Stores_By_City,StateName,String,Yes,No
+21236432,rsd_Stores_By_City,PostalCode,String,No,No
+21236432,rsd_Stores_By_City,CountryRegionCode,String,No,No
+21236432,rsd_Stores_By_City,CountryName,String,No,No
+21236432,rsd_Stores_By_City,Territory,String,No,No
+21236432,rsd_Stores_By_City,Salesperson_ID,Whole Number,No,No
+21236432,rsd_Stores_By_City,SPLastName,String,No,No
+21236432,rsd_Stores_By_City,SPFirstName,String,No,No
+21236432,rsd_Stores_By_City,SPMiddleName,String,No,No
+21236432,rsd_Stores_By_City,Salesperson,String,No,No
+21236432,rsd_Stores_By_City,SalesRepAddr1,String,No,No
+21236432,rsd_Stores_By_City,SalesRepAddr2,String,No,No
+21236432,rsd_Stores_By_City,SalesRepCity,String,No,No
+21236432,rsd_Stores_By_City,SalesRepState,String,No,No
+21236432,rsd_Stores_By_City,SalesRepPostalCode,String,No,No
+21236432,rsd_Stores_By_City,SalesRepEmail,String,No,No
+21236432,rsd_Stores_By_City,PhoneNumber,String,No,No
+21236432,rsd_Stores_By_City,PhoneNumberType,String,No,No
+23199519,rsd_StateSales,COUNTRY,String,No,No
+23199519,rsd_StateSales,STATE,String,No,No
+23199519,rsd_StateSales,TOTAL_SALES,Fixed Decimal Number,No,No
+23199519,rsd_YearlySales,MONTH,Whole Number,Yes,No
+23199519,rsd_YearlySales,Month_Name,String,No,No
+23199519,rsd_YearlySales,SALES_YEAR,Whole Number,No,No
+23199519,rsd_YearlySales,TOTAL_SALES,Fixed Decimal Number,No,No
+42567855,rsd_Cities,City,String,Yes,No
+42567855,rsd_Cities,StateProvinceCode,String,Yes,No
+42567855,rsd_Countries,Country_ID,String,Yes,No
+42567855,rsd_Countries,Country,String,No,No
+42567855,rsd_Purchase,PURCHASEORDER_ID,String,No,No
+42567855,rsd_Purchase,PO_ORDERDATE,Date/Time,No,No
+42567855,rsd_Purchase,REVISIONNUMBER,Whole Number,No,No
+42567855,rsd_Purchase,PO_MODIFIEDDATE,Date/Time,No,No
+42567855,rsd_Purchase,PO_STATUS,Whole Number,No,No
+42567855,rsd_Purchase,VENDOR_ID,Whole Number,No,No
+42567855,rsd_Purchase,VENDOR_NAME,String,No,No
+42567855,rsd_Purchase,ACCOUNTNUMBER,String,No,No
+42567855,rsd_Purchase,VENDOR_ADDRESSLINE1,String,No,No
+42567855,rsd_Purchase,VENDOR_ADDRESSLINE2,String,No,No
+42567855,rsd_Purchase,VENDOR_CITY,String,No,No
+42567855,rsd_Purchase,VENDOR_STATEPROVINCENAME,String,No,No
+42567855,rsd_Purchase,VENDOR_POSTALCODE,String,No,No
+42567855,rsd_Purchase,VENDOR_COUNTRYREGIONNAME,String,No,No
+42567855,rsd_Purchase,VENDOR_STATUS,True/False,No,No
+42567855,rsd_Purchase,VENDOR_PURCHASING_URL,String,No,No
+42567855,rsd_Purchase,BUYER_ID,Whole Number,No,No
+42567855,rsd_Purchase,TITLE,String,No,No
+42567855,rsd_Purchase,FIRSTNAME,String,No,No
+42567855,rsd_Purchase,MIDDLENAME,String,No,No
+42567855,rsd_Purchase,LASTNAME,String,No,No
+42567855,rsd_Purchase,DEPARTMENT,String,No,No
+42567855,rsd_Purchase,JOBTITLE,String,No,No
+42567855,rsd_Purchase,COMPANY,String,No,No
+42567855,rsd_Purchase,EMPLOYEE_ADDRESSLINE1,String,No,No
+42567855,rsd_Purchase,EMPLOYEE_ADDRESSLINE2,String,No,No
+42567855,rsd_Purchase,EMPLOYEE_CITY,String,No,No
+42567855,rsd_Purchase,EMPLOYEE_STATEPROVINCENAME,String,No,No
+42567855,rsd_Purchase,EMPLOYEE_POSTALCODE,String,No,No
+42567855,rsd_Purchase,EMPLOYEE_COUNTRYREGIONNAME,String,No,No
+42567855,rsd_Purchase,SHIPPING_METHOD_ID,Whole Number,No,No
+42567855,rsd_Purchase,SHIPPING_METHOD,String,No,No
+42567855,rsd_Purchase,PURCHASEORDER_DETAIL_ID,Whole Number,No,No
+42567855,rsd_Purchase,PRODUCT_ID,Whole Number,No,No
+42567855,rsd_Purchase,PRODUCT_NAME,String,Yes,No
+42567855,rsd_Purchase,PRODUCT_NUMBER,String,No,No
+42567855,rsd_Purchase,PRODUCT_SIZE,String,No,No
+42567855,rsd_Purchase,COLOR,String,No,No
+42567855,rsd_Purchase,ITEM_DUEDATE,Date/Time,No,No
+42567855,rsd_Purchase,ITEM_MODIFIEDDATE,Date/Time,No,No
+42567855,rsd_Purchase,UNITPRICE,Fixed Decimal Number,No,No
+42567855,rsd_Purchase,ORDERQTY,Whole Number,No,No
+42567855,rsd_Purchase,LINETOTAL,Fixed Decimal Number,No,No
+42567855,rsd_Purchase,SUBTOTAL,Fixed Decimal Number,No,No
+42567855,rsd_Purchase,TAXAMT,Fixed Decimal Number,No,No
+42567855,rsd_Purchase,FREIGHT,Fixed Decimal Number,No,No
+42567855,rsd_Purchase,TOTALDUE,Fixed Decimal Number,No,No
+42567855,rsd_Purchase,PO_SHIPDATE,Date/Time,No,No
+42567855,rsd_Purchase,BARCODE_IMAGE,Binary,No,No
+42567855,rsd_States,State_Code,String,Yes,No
+42567855,rsd_States,StateName,String,No,No
+42567855,rsd_Stores_By_City,Store_ID,Whole Number,No,No
+42567855,rsd_Stores_By_City,StoreName,String,No,No
+42567855,rsd_Stores_By_City,AddressLine1,String,No,No
+42567855,rsd_Stores_By_City,AddressLine2,String,No,No
+42567855,rsd_Stores_By_City,City,String,Yes,No
+42567855,rsd_Stores_By_City,StateProvinceCode,String,Yes,No
+42567855,rsd_Stores_By_City,StateName,String,No,No
+42567855,rsd_Stores_By_City,PostalCode,String,No,No
+42567855,rsd_Stores_By_City,CountryRegionCode,String,No,No
+42567855,rsd_Stores_By_City,CountryName,String,No,No
+42567855,rsd_Stores_By_City,Territory,String,No,No
+42567855,rsd_Stores_By_City,Salesperson_ID,Whole Number,No,No
+42567855,rsd_Stores_By_City,SPLastName,String,No,No
+42567855,rsd_Stores_By_City,SPFirstName,String,No,No
+42567855,rsd_Stores_By_City,SPMiddleName,String,No,No
+42567855,rsd_Stores_By_City,Salesperson,String,Yes,No
+42567855,rsd_Stores_By_City,SalesRepAddr1,String,No,No
+42567855,rsd_Stores_By_City,SalesRepAddr2,String,No,No
+42567855,rsd_Stores_By_City,SalesRepCity,String,No,No
+42567855,rsd_Stores_By_City,SalesRepState,String,No,No
+42567855,rsd_Stores_By_City,SalesRepPostalCode,String,No,No
+42567855,rsd_Stores_By_City,SalesRepEmail,String,No,No
+42567855,rsd_Stores_By_City,PhoneNumber,String,No,No
+42567855,rsd_Stores_By_City,PhoneNumberType,String,No,No
+61693944,rsd_EmployeeAnniversaries,BUSINESSENTITYID,Whole Number,Yes,No
+61693944,rsd_EmployeeAnniversaries,TITLE,String,No,No
+61693944,rsd_EmployeeAnniversaries,FIRSTNAME,String,No,No
+61693944,rsd_EmployeeAnniversaries,MIDDLENAME,String,No,No
+61693944,rsd_EmployeeAnniversaries,LASTNAME,String,No,No
+61693944,rsd_EmployeeAnniversaries,SUFFIX,String,No,No
+61693944,rsd_EmployeeAnniversaries,JOBTITLE,String,No,No
+61693944,rsd_EmployeeAnniversaries,EMAILADDRESS,String,No,No
+61693944,rsd_EmployeeAnniversaries,ADDRESSLINE1,String,No,No
+61693944,rsd_EmployeeAnniversaries,ADDRESSLINE2,String,No,No
+61693944,rsd_EmployeeAnniversaries,CITY,String,No,No
+61693944,rsd_EmployeeAnniversaries,STATEPROVINCENAME,String,No,No
+61693944,rsd_EmployeeAnniversaries,COUNTRYREGIONNAME,String,No,No
+61693944,rsd_EmployeeAnniversaries,POSTALCODE,String,No,No
+61693944,rsd_EmployeeAnniversaries,DEPARTMENT,String,No,No
+61693944,rsd_EmployeeAnniversaries,STARTDATE,Date/Time,Yes,No
+61693944,rsd_EmployeeAnniversaries,CURRENT_YEAR,Whole Number,No,No
+61693944,rsd_EmployeeAnniversaries,ANNIVERSARY_YEAR,Whole Number,No,No
+61693944,rsd_Months,MONTH_ID,Whole Number,Yes,No
+61693944,rsd_Months,MONTH_NAME,String,No,No
+93810519,rsd_Departments,DEPARTMENT,String,Yes,No
+93810519,rsd_EmployeeBarcodes,RECORD_NO,Whole Number,No,No
+93810519,rsd_EmployeeBarcodes,FIRSTNAME,String,No,No
+93810519,rsd_EmployeeBarcodes,MIDDLENAME,String,No,No
+93810519,rsd_EmployeeBarcodes,LASTNAME,String,No,No
+93810519,rsd_EmployeeBarcodes,EMPLOYEE,String,No,No
+93810519,rsd_EmployeeBarcodes,JOBTITLE,String,No,No
+93810519,rsd_EmployeeBarcodes,DEPARTMENT,String,Yes,No
+93810519,rsd_EmployeeBarcodes,BARCODE_TEXT,String,No,No
+93810519,rsd_EmployeeBarcodes,BARCODE_IMAGE,Binary,No,No
