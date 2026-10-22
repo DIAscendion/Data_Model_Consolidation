@@ -1,0 +1,7 @@
+Report_ID,Report_Name,Semantic_Model,Domain,Table_Count,Column_Count,Measure_Count,Relationship_Count,Data_Source_Count,Similarity Score,Complexity Score
+12276834,Order test,Order test,Other,2,49,7,0,1,8,69
+21236432,Subreport_StoresByLocation 4,Subreport_StoresByLocation 4,Sales,4,30,2,3,1,45,50
+23199519,Sales_V1_Test,Sales_V1_Test,Sales,3,7,7,0,1,8,28
+42567855,StoresByLocation 6,StoresByLocation 6,Sales,6,79,8,3,1,45,109
+61693944,Anniversary Letters_mod 3,Anniversary Letters_mod 3,HR,3,20,5,1,1,8,35
+93810519,AssetTags Barcode_mod 3,AssetTags Barcode_mod 3,HR,3,10,3,1,1,8,21
