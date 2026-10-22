@@ -1,0 +1,7 @@
+Report_ID,Report_Name,Proposed_Model,Closest_Report,Match_%,Classification,Reason
+12276834,Order test,Order test,23199519,8,Separate Model,"Very Little Overlap; No other report reaches 70% overlap (closest: 23199519 at 8%); distinct tables/measures"
+21236432,Subreport_StoresByLocation 4,Subreport_StoresByLocation 4,42567855,45,Separate Model,"Very Little Overlap; No other report reaches 70% overlap (closest: 42567855 at 45%); distinct tables/measures"
+23199519,Sales_V1_Test,Sales_V1_Test,12276834,8,Separate Model,"Very Little Overlap; No other report reaches 70% overlap (closest: 12276834 at 8%); distinct tables/measures"
+42567855,StoresByLocation 6,StoresByLocation 6,21236432,45,Separate Model,"Very Little Overlap; No other report reaches 70% overlap (closest: 21236432 at 45%); distinct tables/measures"
+61693944,Anniversary Letters_mod 3,Anniversary Letters_mod 3,12276834,8,Separate Model,"Very Little Overlap; No other report reaches 70% overlap (closest: 12276834 at 8%); distinct tables/measures"
+93810519,AssetTags Barcode_mod 3,AssetTags Barcode_mod 3,12276834,8,Separate Model,"Very Little Overlap; No other report reaches 70% overlap (closest: 12276834 at 8%); distinct tables/measures"
