@@ -1,0 +1,3 @@
+Report_ID,Report_Name,Proposed_Model,Closest_Report,Match_%,Classification,Reason
+67413178,StoresByLocation_col,StoresByLocation_col,97522004,100,Consolidation,Exact Duplicate; vs 97522004: identical objects
+97522004,StoresByLocation,StoresByLocation_col,67413178,100,Consolidation,Exact Duplicate; vs 67413178: identical objects
