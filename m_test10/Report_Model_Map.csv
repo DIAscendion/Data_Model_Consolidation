@@ -1,0 +1,3 @@
+Report_ID,Report_Name,Proposed_Model,Closest_Report,Match_%,Classification,Reason
+66675709,StoresByLocation_upd,StoresByLocation_upd,67413178,45,Separate Model,"Very Little Overlap; No other report reaches 70% overlap (closest: 67413178 at 45%); distinct tables/measures"
+67413178,StoresByLocation_col,StoresByLocation_col,66675709,45,Separate Model,"Very Little Overlap; No other report reaches 70% overlap (closest: 66675709 at 45%); distinct tables/measures; +49 columns (rsd_Purchase.ACCOUNTNUMBER, rsd_Purchase.BARCODE_IMAGE, rsd_Purchase.BUYER_ID, ...), +8 measures (ORDERQTY.Y, txt_CityState.expr1, txt_Country2.expr1, ...), +2 tables (Report_Expressions, rsd_Purchase)"
