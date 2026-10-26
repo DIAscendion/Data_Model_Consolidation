@@ -1,0 +1,9 @@
+Report_ID,Table_Name,Table_Type,Column_Count,Measure_Count
+70173108,rsd_Cities,Dimension,2,0
+70173108,rsd_Countries,Dimension,2,0
+70173108,rsd_States,Dimension,2,0
+70173108,rsd_Stores_By_City,Fact,24,0
+92464630,rsd_Cities,Dimension,2,0
+92464630,rsd_Countries,Dimension,2,0
+92464630,rsd_States,Dimension,2,0
+92464630,rsd_Stores_By_City,Fact,24,0
