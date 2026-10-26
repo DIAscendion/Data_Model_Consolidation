@@ -1,159 +1,61 @@
 Report_ID,Table_Name,Column_Name,Data_Type,Is_Key,Is_Hidden
-67413178,rsd_Cities,City,String,Yes,No
-67413178,rsd_Cities,StateProvinceCode,String,Yes,No
-67413178,rsd_Countries,Country_ID,String,Yes,No
-67413178,rsd_Countries,Country,String,No,No
-67413178,rsd_Purchase,PURCHASEORDER_ID,String,No,No
-67413178,rsd_Purchase,PO_ORDERDATE,Date/Time,No,No
-67413178,rsd_Purchase,REVISIONNUMBER,Whole Number,No,No
-67413178,rsd_Purchase,PO_MODIFIEDDATE,Date/Time,No,No
-67413178,rsd_Purchase,PO_STATUS,Whole Number,No,No
-67413178,rsd_Purchase,VENDOR_ID,Whole Number,No,No
-67413178,rsd_Purchase,VENDOR_NAME,String,No,No
-67413178,rsd_Purchase,ACCOUNTNUMBER,String,No,No
-67413178,rsd_Purchase,VENDOR_ADDRESSLINE1,String,No,No
-67413178,rsd_Purchase,VENDOR_ADDRESSLINE2,String,No,No
-67413178,rsd_Purchase,VENDOR_CITY,String,No,No
-67413178,rsd_Purchase,VENDOR_STATEPROVINCENAME,String,No,No
-67413178,rsd_Purchase,VENDOR_POSTALCODE,String,No,No
-67413178,rsd_Purchase,VENDOR_COUNTRYREGIONNAME,String,No,No
-67413178,rsd_Purchase,VENDOR_STATUS,True/False,No,No
-67413178,rsd_Purchase,VENDOR_PURCHASING_URL,String,No,No
-67413178,rsd_Purchase,BUYER_ID,Whole Number,No,No
-67413178,rsd_Purchase,TITLE,String,No,No
-67413178,rsd_Purchase,FIRSTNAME,String,No,No
-67413178,rsd_Purchase,MIDDLENAME,String,No,No
-67413178,rsd_Purchase,LASTNAME,String,No,No
-67413178,rsd_Purchase,DEPARTMENT,String,No,No
-67413178,rsd_Purchase,JOBTITLE,String,No,No
-67413178,rsd_Purchase,COMPANY,String,No,No
-67413178,rsd_Purchase,EMPLOYEE_ADDRESSLINE1,String,No,No
-67413178,rsd_Purchase,EMPLOYEE_ADDRESSLINE2,String,No,No
-67413178,rsd_Purchase,EMPLOYEE_CITY,String,No,No
-67413178,rsd_Purchase,EMPLOYEE_STATEPROVINCENAME,String,No,No
-67413178,rsd_Purchase,EMPLOYEE_POSTALCODE,String,No,No
-67413178,rsd_Purchase,EMPLOYEE_COUNTRYREGIONNAME,String,No,No
-67413178,rsd_Purchase,SHIPPING_METHOD_ID,Whole Number,No,No
-67413178,rsd_Purchase,SHIPPING_METHOD,String,No,No
-67413178,rsd_Purchase,PURCHASEORDER_DETAIL_ID,Whole Number,No,No
-67413178,rsd_Purchase,PRODUCT_ID,Whole Number,No,No
-67413178,rsd_Purchase,PRODUCT_NAME,String,Yes,No
-67413178,rsd_Purchase,PRODUCT_NUMBER,String,No,No
-67413178,rsd_Purchase,PRODUCT_SIZE,String,No,No
-67413178,rsd_Purchase,COLOR,String,No,No
-67413178,rsd_Purchase,ITEM_DUEDATE,Date/Time,No,No
-67413178,rsd_Purchase,ITEM_MODIFIEDDATE,Date/Time,No,No
-67413178,rsd_Purchase,UNITPRICE,Fixed Decimal Number,No,No
-67413178,rsd_Purchase,ORDERQTY,Whole Number,No,No
-67413178,rsd_Purchase,LINETOTAL,Fixed Decimal Number,No,No
-67413178,rsd_Purchase,SUBTOTAL,Fixed Decimal Number,No,No
-67413178,rsd_Purchase,TAXAMT,Fixed Decimal Number,No,No
-67413178,rsd_Purchase,FREIGHT,Fixed Decimal Number,No,No
-67413178,rsd_Purchase,TOTALDUE,Fixed Decimal Number,No,No
-67413178,rsd_Purchase,PO_SHIPDATE,Date/Time,No,No
-67413178,rsd_Purchase,BARCODE_IMAGE,Binary,No,No
-67413178,rsd_States,State_Code,String,Yes,No
-67413178,rsd_States,StateName,String,No,No
-67413178,rsd_Stores_By_City,Store_ID,Whole Number,No,No
-67413178,rsd_Stores_By_City,StoreName,String,No,No
-67413178,rsd_Stores_By_City,AddressLine1,String,No,No
-67413178,rsd_Stores_By_City,AddressLine2,String,No,No
-67413178,rsd_Stores_By_City,City,String,Yes,No
-67413178,rsd_Stores_By_City,StateProvinceCode,String,Yes,No
-67413178,rsd_Stores_By_City,StateName,String,No,No
-67413178,rsd_Stores_By_City,PostalCode,String,No,No
-67413178,rsd_Stores_By_City,CountryRegionCode,String,No,No
-67413178,rsd_Stores_By_City,CountryName,String,No,No
-67413178,rsd_Stores_By_City,Territory,String,No,No
-67413178,rsd_Stores_By_City,Salesperson_ID,Whole Number,No,No
-67413178,rsd_Stores_By_City,SPLastName,String,No,No
-67413178,rsd_Stores_By_City,SPFirstName,String,No,No
-67413178,rsd_Stores_By_City,SPMiddleName,String,No,No
-67413178,rsd_Stores_By_City,Salesperson,String,Yes,No
-67413178,rsd_Stores_By_City,SalesRepAddr1,String,No,No
-67413178,rsd_Stores_By_City,SalesRepAddr2,String,No,No
-67413178,rsd_Stores_By_City,SalesRepCity,String,No,No
-67413178,rsd_Stores_By_City,SalesRepState,String,No,No
-67413178,rsd_Stores_By_City,SalesRepPostalCode,String,No,No
-67413178,rsd_Stores_By_City,SalesRepEmail,String,No,No
-67413178,rsd_Stores_By_City,PhoneNumber,String,No,No
-67413178,rsd_Stores_By_City,PhoneNumberType,String,No,No
-97522004,rsd_Cities,City,String,Yes,No
-97522004,rsd_Cities,StateProvinceCode,String,Yes,No
-97522004,rsd_Countries,Country_ID,String,Yes,No
-97522004,rsd_Countries,Country,String,No,No
-97522004,rsd_Purchase,PURCHASEORDER_ID,String,No,No
-97522004,rsd_Purchase,PO_ORDERDATE,Date/Time,No,No
-97522004,rsd_Purchase,REVISIONNUMBER,Whole Number,No,No
-97522004,rsd_Purchase,PO_MODIFIEDDATE,Date/Time,No,No
-97522004,rsd_Purchase,PO_STATUS,Whole Number,No,No
-97522004,rsd_Purchase,VENDOR_ID,Whole Number,No,No
-97522004,rsd_Purchase,VENDOR_NAME,String,No,No
-97522004,rsd_Purchase,ACCOUNTNUMBER,String,No,No
-97522004,rsd_Purchase,VENDOR_ADDRESSLINE1,String,No,No
-97522004,rsd_Purchase,VENDOR_ADDRESSLINE2,String,No,No
-97522004,rsd_Purchase,VENDOR_CITY,String,No,No
-97522004,rsd_Purchase,VENDOR_STATEPROVINCENAME,String,No,No
-97522004,rsd_Purchase,VENDOR_POSTALCODE,String,No,No
-97522004,rsd_Purchase,VENDOR_COUNTRYREGIONNAME,String,No,No
-97522004,rsd_Purchase,VENDOR_STATUS,True/False,No,No
-97522004,rsd_Purchase,VENDOR_PURCHASING_URL,String,No,No
-97522004,rsd_Purchase,BUYER_ID,Whole Number,No,No
-97522004,rsd_Purchase,TITLE,String,No,No
-97522004,rsd_Purchase,FIRSTNAME,String,No,No
-97522004,rsd_Purchase,MIDDLENAME,String,No,No
-97522004,rsd_Purchase,LASTNAME,String,No,No
-97522004,rsd_Purchase,DEPARTMENT,String,No,No
-97522004,rsd_Purchase,JOBTITLE,String,No,No
-97522004,rsd_Purchase,COMPANY,String,No,No
-97522004,rsd_Purchase,EMPLOYEE_ADDRESSLINE1,String,No,No
-97522004,rsd_Purchase,EMPLOYEE_ADDRESSLINE2,String,No,No
-97522004,rsd_Purchase,EMPLOYEE_CITY,String,No,No
-97522004,rsd_Purchase,EMPLOYEE_STATEPROVINCENAME,String,No,No
-97522004,rsd_Purchase,EMPLOYEE_POSTALCODE,String,No,No
-97522004,rsd_Purchase,EMPLOYEE_COUNTRYREGIONNAME,String,No,No
-97522004,rsd_Purchase,SHIPPING_METHOD_ID,Whole Number,No,No
-97522004,rsd_Purchase,SHIPPING_METHOD,String,No,No
-97522004,rsd_Purchase,PURCHASEORDER_DETAIL_ID,Whole Number,No,No
-97522004,rsd_Purchase,PRODUCT_ID,Whole Number,No,No
-97522004,rsd_Purchase,PRODUCT_NAME,String,Yes,No
-97522004,rsd_Purchase,PRODUCT_NUMBER,String,No,No
-97522004,rsd_Purchase,PRODUCT_SIZE,String,No,No
-97522004,rsd_Purchase,COLOR,String,No,No
-97522004,rsd_Purchase,ITEM_DUEDATE,Date/Time,No,No
-97522004,rsd_Purchase,ITEM_MODIFIEDDATE,Date/Time,No,No
-97522004,rsd_Purchase,UNITPRICE,Fixed Decimal Number,No,No
-97522004,rsd_Purchase,ORDERQTY,Whole Number,No,No
-97522004,rsd_Purchase,LINETOTAL,Fixed Decimal Number,No,No
-97522004,rsd_Purchase,SUBTOTAL,Fixed Decimal Number,No,No
-97522004,rsd_Purchase,TAXAMT,Fixed Decimal Number,No,No
-97522004,rsd_Purchase,FREIGHT,Fixed Decimal Number,No,No
-97522004,rsd_Purchase,TOTALDUE,Fixed Decimal Number,No,No
-97522004,rsd_Purchase,PO_SHIPDATE,Date/Time,No,No
-97522004,rsd_Purchase,BARCODE_IMAGE,Binary,No,No
-97522004,rsd_States,State_Code,String,Yes,No
-97522004,rsd_States,StateName,String,No,No
-97522004,rsd_Stores_By_City,Store_ID,Whole Number,No,No
-97522004,rsd_Stores_By_City,StoreName,String,No,No
-97522004,rsd_Stores_By_City,AddressLine1,String,No,No
-97522004,rsd_Stores_By_City,AddressLine2,String,No,No
-97522004,rsd_Stores_By_City,City,String,Yes,No
-97522004,rsd_Stores_By_City,StateProvinceCode,String,Yes,No
-97522004,rsd_Stores_By_City,StateName,String,No,No
-97522004,rsd_Stores_By_City,PostalCode,String,No,No
-97522004,rsd_Stores_By_City,CountryRegionCode,String,No,No
-97522004,rsd_Stores_By_City,CountryName,String,No,No
-97522004,rsd_Stores_By_City,Territory,String,No,No
-97522004,rsd_Stores_By_City,Salesperson_ID,Whole Number,No,No
-97522004,rsd_Stores_By_City,SPLastName,String,No,No
-97522004,rsd_Stores_By_City,SPFirstName,String,No,No
-97522004,rsd_Stores_By_City,SPMiddleName,String,No,No
-97522004,rsd_Stores_By_City,Salesperson,String,Yes,No
-97522004,rsd_Stores_By_City,SalesRepAddr1,String,No,No
-97522004,rsd_Stores_By_City,SalesRepAddr2,String,No,No
-97522004,rsd_Stores_By_City,SalesRepCity,String,No,No
-97522004,rsd_Stores_By_City,SalesRepState,String,No,No
-97522004,rsd_Stores_By_City,SalesRepPostalCode,String,No,No
-97522004,rsd_Stores_By_City,SalesRepEmail,String,No,No
-97522004,rsd_Stores_By_City,PhoneNumber,String,No,No
-97522004,rsd_Stores_By_City,PhoneNumberType,String,No,No
+66675709,rsd_Cities,City,String,Yes,No
+66675709,rsd_Cities,StateProvinceCode,String,Yes,No
+66675709,rsd_Countries,Country_ID,String,Yes,No
+66675709,rsd_Countries,Country,String,No,No
+66675709,rsd_States,State_Code,String,Yes,No
+66675709,rsd_States,StateName,String,No,No
+66675709,rsd_Stores_By_City,Store_ID,Whole Number,No,No
+66675709,rsd_Stores_By_City,StoreName,String,No,No
+66675709,rsd_Stores_By_City,AddressLine1,String,No,No
+66675709,rsd_Stores_By_City,AddressLine2,String,No,No
+66675709,rsd_Stores_By_City,City,String,Yes,No
+66675709,rsd_Stores_By_City,StateProvinceCode,String,Yes,No
+66675709,rsd_Stores_By_City,StateName,String,No,No
+66675709,rsd_Stores_By_City,PostalCode,String,No,No
+66675709,rsd_Stores_By_City,CountryRegionCode,String,No,No
+66675709,rsd_Stores_By_City,CountryName,String,No,No
+66675709,rsd_Stores_By_City,Territory,String,No,No
+66675709,rsd_Stores_By_City,Salesperson_ID,Whole Number,No,No
+66675709,rsd_Stores_By_City,SPLastName,String,No,No
+66675709,rsd_Stores_By_City,SPFirstName,String,No,No
+66675709,rsd_Stores_By_City,SPMiddleName,String,No,No
+66675709,rsd_Stores_By_City,Salesperson,String,Yes,No
+66675709,rsd_Stores_By_City,SalesRepAddr1,String,No,No
+66675709,rsd_Stores_By_City,SalesRepAddr2,String,No,No
+66675709,rsd_Stores_By_City,SalesRepCity,String,No,No
+66675709,rsd_Stores_By_City,SalesRepState,String,No,No
+66675709,rsd_Stores_By_City,SalesRepPostalCode,String,No,No
+66675709,rsd_Stores_By_City,SalesRepEmail,String,No,No
+66675709,rsd_Stores_By_City,PhoneNumber,String,No,No
+66675709,rsd_Stores_By_City,PhoneNumberType,String,No,No
+70173108,rsd_Cities,City,String,Yes,No
+70173108,rsd_Cities,StateProvinceCode,String,Yes,No
+70173108,rsd_Countries,Country_ID,String,Yes,No
+70173108,rsd_Countries,Country,String,No,No
+70173108,rsd_States,State_Code,String,Yes,No
+70173108,rsd_States,StateName,String,No,No
+70173108,rsd_Stores_By_City,Store_ID,Whole Number,No,No
+70173108,rsd_Stores_By_City,StoreName,String,No,No
+70173108,rsd_Stores_By_City,AddressLine1,String,No,No
+70173108,rsd_Stores_By_City,AddressLine2,String,No,No
+70173108,rsd_Stores_By_City,City,String,Yes,No
+70173108,rsd_Stores_By_City,StateProvinceCode,String,Yes,No
+70173108,rsd_Stores_By_City,StateName,String,No,No
+70173108,rsd_Stores_By_City,PostalCode,String,No,No
+70173108,rsd_Stores_By_City,CountryRegionCode,String,No,No
+70173108,rsd_Stores_By_City,CountryName,String,No,No
+70173108,rsd_Stores_By_City,Territory,String,No,No
+70173108,rsd_Stores_By_City,Salesperson_ID,Whole Number,No,No
+70173108,rsd_Stores_By_City,SPLastName,String,No,No
+70173108,rsd_Stores_By_City,SPFirstName,String,No,No
+70173108,rsd_Stores_By_City,SPMiddleName,String,No,No
+70173108,rsd_Stores_By_City,Salesperson,String,Yes,No
+70173108,rsd_Stores_By_City,SalesRepAddr1,String,No,No
+70173108,rsd_Stores_By_City,SalesRepAddr2,String,No,No
+70173108,rsd_Stores_By_City,SalesRepCity,String,No,No
+70173108,rsd_Stores_By_City,SalesRepState,String,No,No
+70173108,rsd_Stores_By_City,SalesRepPostalCode,String,No,No
+70173108,rsd_Stores_By_City,SalesRepEmail,String,No,No
+70173108,rsd_Stores_By_City,PhoneNumber,String,No,No
+70173108,rsd_Stores_By_City,PhoneNumberType,String,No,No
