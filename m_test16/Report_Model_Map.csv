@@ -1,0 +1,5 @@
+Report_ID,Report_Name,Proposed_Model,Closest_Report,Match_%,Classification,Reason
+66675709,StoresByLocation_upd,StoresByLocation_upd,70173108,100,Consolidation,Exact Duplicate; vs 70173108: identical objects
+70173108,StoresByLocation_inc_col,StoresByLocation_upd,66675709,100,Consolidation,Exact Duplicate; vs 66675709: identical objects
+92464630,StoresByLocation_dec_col,StoresByLocation_upd,66675709,100,Consolidation,Exact Duplicate; vs 66675709: identical objects
+97522004,StoresByLocation,StoresByLocation,66675709,45,Separate Model,"Very Little Overlap; No other report reaches 70% overlap (closest: 66675709 at 45%); distinct tables/measures"
