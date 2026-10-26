@@ -1,0 +1,5 @@
+Report_ID,Report_Name,Semantic_Model,Domain,Table_Count,Column_Count,Measure_Count,Relationship_Count,Data_Source_Count,Similarity Score,Complexity Score
+66675709,StoresByLocation_upd,StoresByLocation_upd,Sales,4,30,0,3,1,100,48
+70173108,StoresByLocation_inc_col,StoresByLocation_inc_col,Sales,4,30,0,3,1,100,48
+92464630,StoresByLocation_dec_col,StoresByLocation_dec_col,Sales,4,30,0,3,1,100,48
+97522004,StoresByLocation,StoresByLocation,Sales,6,79,8,3,1,45,109
